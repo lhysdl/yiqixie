@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	background: #f0f0f0;
+	background-size: cover;
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
+	font-weight: 100;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: #000;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+
+/* === Cols === */
+
+#col-left {
+	float: left;
+	width: 160px;
+	height: 100%;
+	position: relative;
+	display: none;
+	background: #023039;
+}
+
+#col-right {
+	margin-left: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/* === Menu === */
+
+.menu {
+	color: #666;
+	text-align: center;
+	line-height: 43px;
+	background: #f0f0f0;
+	height: 43px;
+	border-bottom: #e0e0e0 solid 1px;
+	position: relative;
+}
+
+.menu * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* === Button === */
+
+.btn {
+	font-size: 24px;
+	display: inline-block;	
+	height: 20px;
+	line-height: 16px;
+	color: #05b2d2;
+	cursor: pointer;
+}
+
+.clicked {
+	color: #e6685b;
+}
+
+#btn-add {
+	position: absolute;
+	right: 15px;
+	top: 12px;
+}
+
+#btn-menu {
+	position: absolute;
+	left: 15px;
+	top: 12px;
+}
+
+/* === List === */
+
+.list {
+	padding: 0 15px;
+	height: 100%;
+}
+
+.list-wrapper {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+
+.list-item {
+	height: 43px;
+	line-height: 44px;
+	padding: 0 15px;
+	border-bottom: #e0e0e0 solid 1px;
+}
+
+.list-item * {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.list-item .icon {
+	font-size: 24px;
+	height: 44px;
+	line-height: 44px;
+}
+
+.list-name {
+	color: #999;
+	margin-left: 15px;
+}
+
+.list-item .icon-file {
+	color: #999;
+}
+
+.folder-yellow {
+	color: #ffcd52;
+}
+
+.folder-green {
+	color: #9fd367;
+}
+
+.folder-red {
+	color: #fb6d50;
+}
+
+.folder-blue {
+	color: #4ec0e8;
+}
+
+.folder-red {
+	color: #fb6d50;
+}
+
+.folder-purple {
+	color: #ab91eb;
+}
+
+.folder-cyan {
+	color: #47ceac;
+}
+
+/* === Nav === */
+
+#nav {
+	color: #fff;
+	position: relative;
+	padding: 15px;
+	overflow: auto;
+}
+
+#nav-headshot {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	background: url(../images/headshot.jpg) no-repeat center center;
+	background-size: 60px 60px;
+	border-radius: 30px;
+}
+
+#nav-name {
+	padding: 15px;
+}
+
+.nav-wrapper {
+	display: block;
+	list-style: none;
+}
+
+.nav-wrapper li {
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	border-top: rgba(255, 255, 255, 0.1) solid 1px;
+}
+
+.nav-wrapper li * {
+	height: 44px;
+	line-height: 44px;
+}
+
+.nav-wrapper .icon {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+	background: url(../images/logo_40.png) no-repeat center center;
+	background-size: 20px 20px;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+}
+
+/* === Edit Buttons === */
+
+.ebtn-wrapper {
+	background: #fff;
+	border-bottom: #e0e0e0 solid 1px;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	height: 43px;
+	white-space: nowrap;
+	overflow-x: visible;
+}
+
+.ebtn-wrapper * {
+	vertical-align: middle;
+}
+
+.ebtn {
+	display: inline-block;
+	border-right: #e0e0e0 solid 1px;
+	color: #05b2d2;
+	font-size: 24px;
+	width: 43px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center; 
+}
+
+.ebtn-on {
+	color: #e6685b;
+	background: #f0f0f0;
+}
+
+/* === Page === */
+
+.page {
+	color: #262626;
+	position: absolute;
+	top: 88px;
+	padding: 15px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	font-size: 14px;
+}
+
+.page p, .page h1, .page h2, .page h3 {
+	margin: 1em 0;
+}
+
+.page p {
+	font-size: 14px;
+	font-weight: 100;
+	margin-bottom: 1em;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.page h1 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.page h2 {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.page h3 {
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 1em;
+	text-align: center;
+}
