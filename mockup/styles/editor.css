@@ -3,6 +3,11 @@
 * {
 	margin: 0;
 	padding: 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
 }
 
 html {
@@ -367,16 +372,11 @@ body {
 
 #menu-wrapper {
 	position: fixed;
-	right: 30px;
+	right: 20px;
 	top: 10px;
 	width: 40px;
 	height: 310px;
 	z-index: 999;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	-khtml-user-select: none;
-	user-select: none;
 }
 
 
@@ -390,7 +390,8 @@ body {
 	color: #fff;
 	width: 36px;
 	height: 36px;
-	font-size: 24px;
+	line-height: 36px;
+	font-size: 20px;
 	line-height: 36px;
 	background: #05b2d2;
 	border-radius: 20px;
@@ -406,16 +407,17 @@ body {
 }
 
 .menu span {
-    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
 	color: #05b2d2;
 	font-size: 12px;
+	line-height: 16px;
 	font-weight: 100;
 	position: absolute;
-	padding: 2px;
+	right: -200px;
+	padding: 5px 10px;
 	background: blue;
-	left: -90px;
-	top: 2px;
-	width: 80px;
+	border-radius: 4px;
+	top: 6px;
+	width: auto;
 	text-align: right;
 	display: none;
 	word-spacing: 0;
@@ -641,7 +643,6 @@ body {
 .file-options {
 	display: none;
 	padding: 5px;
-	-moz-user-select: none;
 }
 
 .file-options li {
