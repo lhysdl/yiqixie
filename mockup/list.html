@@ -4,23 +4,26 @@
 <meta charset="utf-8">
 <title>一起写</title>
 <link href="styles/feather.css" rel="stylesheet" type="text/css">
-<link href="styles/list.css" rel="stylesheet" type="text/css">
+<link href="styles/editor.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 </head>
 <body>
-<div id="nav-wrapper">
-  <div id="nav-container">
-    <div class="nav icon-file-add" id="nav-newfile"><span>新建文件</span></div>
-    <div class="nav icon-folder-add" id="nav-newfolder"><span>新建文件夹</span></div>
-    <div class="nav icon-cog" id="nav-setting"><span>设置</span></div>
-    <div class="nav icon-cross" id="nav-exit"><span>退出</span></div>
-    <div class="nav" id="nav-menu"><span>西西里园艺师</span></div>
+<div id="menu-wrapper">
+  <div id="menu-container">
+    <div class="menu icon-file-add" id="menu-newfile"><span>新建文件</span></div>
+    <div class="menu icon-folder-add" id="menu-newfolder"><span>新建文件夹</span></div>
+    <div class="menu icon-cog" id="menu-setting"><span>设置</span></div>
+    <div class="menu icon-cross" id="menu-exit"><span>退出</span></div>
+    <div class="menu" id="menu-start"><span>西西里园艺师</span></div>
   </div>
 </div>
-<div class="wrapper">
-  <div id="search-wrapper">
-  	<span id="logo"></span>
-    <input type="text" class="input" placeholder="搜索"><span class="btn icon-search"></span> </div>
+<div id="header">
+  <div id="search-wrapper"> <span id="logo"></span>
+    <input type="text" class="input search-input" placeholder="搜索">
+    <span class="btn search-btn icon-search"></span> </div>
+</div>
+<div id="body">
+  <div id="menubar"> </div>
   <div class="file-add">
     <div class="file-add-on"><a href="#" class="btn btn-newfile"><span class="icon-file"></span> &nbsp;新建文件</a><a href="#" class="btn btn-importfile"><span class="icon-inbox"></span> &nbsp;导入文件</a></div>
   </div>
@@ -32,9 +35,7 @@
       <p class="text-center">明月松间照，清泉石上流。</p>
       <p class="text-center">竹喧归浣女，莲动下渔舟。</p>
       <p class="text-center">随意春芳歇，王孙自可留。</p>
-      <span class="share-info">与 1 人共享</span>
-      <span class="icon-share"></span>
-    </div>
+      <span class="share-info">与 1 人共享</span> <span class="icon-share"></span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">山居秋暝</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
@@ -84,20 +85,14 @@
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-yellow-empty">
-      <span class="share-info">与 6 人共享</span>
-      <span class="icon-share"></span>
-    </div>
+    <div class="folder folder-yellow-empty"> <span class="share-info">与 6 人共享</span> <span class="icon-share"></span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">年报表</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-yellow">
-      <span class="share-info">与 3 人共享</span>
-      <span class="icon-share"></span>
-    </div>
+    <div class="folder folder-yellow"> <span class="share-info">与 3 人共享</span> <span class="icon-share"></span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">月报表</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
@@ -112,7 +107,7 @@
       <p>“今天还出去划船吗？”我问。</p>
       <p>“当然，天气真好啊，我太喜欢钓鱼，可惜这湖中的鱼不大。”</p>
       <p>“反正你是为钓，并非为鱼。”</p>
-      <p><span class="mark mark-red">“对极了，对极了，我是为钓，不是为鱼。”</span>他一边说着，一边登上小船，带着他的钓具与几本书，马达照例不开，双桨轻轻划破水面，悠然远去。</p>
+      <p>“对极了，对极了，我是为钓，不是为鱼。”他一边说着，一边登上小船，带着他的钓具与几本书，马达照例不开，双桨轻轻划破水面，悠然远去。</p>
       <p>我抬头目送他远去，眼前的景色，令人欲醉。好像只有华兹华斯的歌声足以形容：</p>
       <p>这一幅风光，如梦</p>
       <p>山这样清秀</p>
@@ -144,7 +139,7 @@
     </div>
     <div class="file-info"><span class="file-name" contenteditable="true">神雕侠侣</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
-    <span class="btn icon-menu file-menu" style="display: none"></span>	
+    <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
   <div class="file">
@@ -179,35 +174,27 @@
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-red">
-      <span class="share-info">私密文档</span>
-    </div>
+    <div class="folder folder-red"> <span class="share-info">私密文档</span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">薪酬报表</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-green-empty">
-      <span class="share-info">公开文档</span>
-    </div>
+    <div class="folder folder-green-empty"> <span class="share-info">公开文档</span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">评论</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-blue">
-      <span class="share-info">与 2 人共享</span>
-      <span class="icon-share"></span>
-    </div>
+    <div class="folder folder-blue"> <span class="share-info">与 2 人共享</span> <span class="icon-share"></span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">小说</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
-  <div class="file">
-    <span class="btn icon-menu file-menu" style="display: none"></span>
+  <div class="file"> <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-preview">
       <h1 class="text-center">Galaxies and Cosmology</h1>
       <h2 class="text-center">S. George Djorgovski</h2>
@@ -215,32 +202,26 @@
       <p>This is an on-line version of the eponymous Ay 21 class at Caltech, and it was offered previously on Coursera twice. Do note that the class assumes a substantial background knowledge in physics, math, and astronomy, and if you find yourself baffled too often, you may want to take some more introductory level classes first (for example, I will be teaching an introductory astronomy class, "The Evolving Universe", in the spring 2015).</p>
       <p>Please read the Course Logistics page first! Most questions about the class are answered there. Take a look at it before you ask any questions about the class logistics in the discussion forums.</p>
     </div>
-    <div class="file-info"><span class="file-name" contenteditable="true">Galaxies and Cosmology</span><span class="icon-wechat file-wechat"></span></div>
+    <div class="file-info"><span class="file-name" contenteditable="true">Galaxies and ...</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/21 19:16</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-purple">
-      <span class="share-info">未共享</span>
-    </div>
+    <div class="folder folder-purple"> <span class="share-info">未共享</span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">采购清单</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
   <div class="file">
-    <div class="folder folder-cyan">
-      <span class="share-info">与 10 人共享</span>
-      <span class="icon-share"></span>
-    </div>
+    <div class="folder folder-cyan"> <span class="share-info">与 10 人共享</span> <span class="icon-share"></span> </div>
     <div class="file-info"><span class="file-name" contenteditable="true">行星观测报告</span><span class="icon-wechat file-wechat"></span></div>
     <div class="file-time">最后更新：2014/12/16 01:32</div>
     <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-pin"></div>
   </div>
-  <div class="file">
-    <span class="btn icon-menu file-menu" style="display: none"></span>
+  <div class="file"> <span class="btn icon-menu file-menu" style="display: none"></span>
     <div class="file-preview">
       <h1 class="text-center">欢迎学习中国建筑史！</h1>
       <p>在这门课程中，我们将按照时间顺序了解从上古到两宋辽金时期中国建筑的发展演变，包括城市和以木结构为主的宫殿、寺庙、园林和陵寝等建筑类型。在隋唐之后，还会接触到大量具有几百年甚至上千年历史的木结构建筑实例，以及世界上最早印刷发型的建筑文本宋《营造法式》。</p>
