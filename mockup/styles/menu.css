@@ -1,0 +1,70 @@
+/* CSS Document */
+@charset "utf-8";
+
+/* === Menu === */
+
+#menu-wrapper {
+	position: fixed;
+	right: 20px;
+	top: 6px;
+	width: 36px;
+	z-index: 999;
+}
+
+#menu-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.menu {
+	color: #fff;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 20px;
+	line-height: 36px;
+	background: #05b2d2;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+	position: fixed;
+	top: 6px;
+}
+
+#menu-start {
+	background: url(../images/headshot.jpg) no-repeat center center;
+	background-size: 40px 40px;
+}
+
+.menu span {
+	color: #05b2d2;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 100;
+	position: absolute;
+	right: -200px;
+	padding: 5px 10px;
+	background: blue;
+	border-radius: 4px;
+	top: 6px;
+	width: auto;
+	text-align: right;
+	display: none;
+	word-spacing: 0;
+}
+
+.menu:hover {
+	background: #e6685b;
+}
+
+.menu:hover span {
+	display: block;
+	color: #e6685b;
+}
+
+#menu-newfile, #menu-newfolder, #menu-setting, #menu-exit {
+	display: none;
+	opacity: 0;
+}
+

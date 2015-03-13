@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+.switch {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 100%;
+}
+
+.switch:after{
+	display:inline-block;
+	width:0;
+	height:100%;
+	vertical-align:middle;
+	content:'';
+}
+
+.switch-item {
+	display: inline-block;
+	width: 130px;
+	height: auto;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.switch-item:hover {
+}
+
+.switch-item:hover .switch-name {
+	color: #e6685b;
+}
+
+.switch-border {
+	display: block;
+	width: 130px;
+	height: 130px;
+	background-color: #fff;
+	border-radius: 80px;
+	position: relative;
+}
+
+.switch-logo {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	top: 65px;
+	left: 65px;
+	margin-top: -50px;
+	margin-left: -50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.switch-name {
+	text-align: center;
+	font-weight: 100;
+	display: block;
+	color: #05b2d2;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 4px;
+}
+
+.switch-selected {
+	opacity: 1;
+}
+
+.switch-selected .switch-name {
+	color: #fff !important;
+	background-color: #e6685b;
+	border-radius: 4px;
+}
+
+.switch-title {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin: 40px 0 40px 0;
+}
+
+.switch-wrapper {
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#switch-google {
+	background-image: url(../images/google.png);
+}
+
+#switch-nasa {
+	background-image: url(../images/nasa.png);
+}
+
+#switch-esa {
+	background-image: url(../images/esa.png);
+}
+
+#switch-nsa {
+	background-image: url(../images/nsa.png);
+}
+
+#switch-cmb {
+	background-image: url(../images/cmb.png);
+}
+
+#switch-ibm {
+	background-image: url(../images/ibm.png);
+}
+
+#switch-bayer {
+	background-image: url(../images/bayer.png);
+}
+
+#switch-bmw {
+	background-image: url(../images/bmw.png);
+}
+
+#switch-adidas {
+	background-image: url(../images/adidas.png);
+}
+
+#switch-lufthansa {
+	background-image: url(../images/lufthansa.png);
+}
+
+#switch-siemens {
+	background-image: url(../images/siemens.png);
+}
+
+#switch-telekom {
+	background-image: url(../images/telekom.png);
+}
+
+
+
