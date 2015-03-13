@@ -9,7 +9,6 @@ $(document).ready(function(e) {
 		$(this).toggleClass("file-star-on");
 	});
 	$(".file-add").click(function() {
-		$(this).children(".file-add-on").animate({marginTop: "0"}, 300, "easeInCubic");
 	});
 	$(".file-add-on").children(".btn").click(function() {
 		$(this).parent(".file-add-on").animate({marginTop: "340px"}, 300, "easeOutCubic");

@@ -26,7 +26,10 @@
 	cursor: pointer;
 }
 
-.switch-item:hover {
+.switch-item:hover .switch-border {
+	-webkit-box-shadow: 0 0 25px #fff;
+	-moz-box-shadow: 0 0 25px #fff;
+	box-shadow: 0 0 25px #fff;
 }
 
 .switch-item:hover .switch-name {
@@ -61,7 +64,7 @@
 	font-weight: 100;
 	display: block;
 	color: #05b2d2;
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 20px;
 	padding: 4px;
 }
@@ -91,51 +94,51 @@
 	vertical-align: middle;
 }
 
-#switch-google {
+.switch-google {
 	background-image: url(../images/google.png);
 }
 
-#switch-nasa {
+.switch-nasa {
 	background-image: url(../images/nasa.png);
 }
 
-#switch-esa {
+.switch-esa {
 	background-image: url(../images/esa.png);
 }
 
-#switch-nsa {
+.switch-nsa {
 	background-image: url(../images/nsa.png);
 }
 
-#switch-cmb {
+.switch-cmb {
 	background-image: url(../images/cmb.png);
 }
 
-#switch-ibm {
+.switch-ibm {
 	background-image: url(../images/ibm.png);
 }
 
-#switch-bayer {
+.switch-bayer {
 	background-image: url(../images/bayer.png);
 }
 
-#switch-bmw {
+.switch-bmw {
 	background-image: url(../images/bmw.png);
 }
 
-#switch-adidas {
+.switch-adidas {
 	background-image: url(../images/adidas.png);
 }
 
-#switch-lufthansa {
+.switch-lufthansa {
 	background-image: url(../images/lufthansa.png);
 }
 
-#switch-siemens {
+.switch-siemens {
 	background-image: url(../images/siemens.png);
 }
 
-#switch-telekom {
+.switch-telekom {
 	background-image: url(../images/telekom.png);
 }
 

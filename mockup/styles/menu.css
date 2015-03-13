@@ -8,6 +8,7 @@
 	right: 20px;
 	top: 6px;
 	width: 36px;
+	height: 36px;
 	z-index: 999;
 }
 
@@ -66,5 +67,16 @@
 #menu-newfile, #menu-newfolder, #menu-setting, #menu-exit {
 	display: none;
 	opacity: 0;
+}
+
+.menu-logo {
+	position: absolute;
+	top: 3px;
+	right: 50px;
+	height: 30px;
+	width: 300px;
+	background-size: auto 30px;
+	background-repeat: no-repeat;
+	background-position: center right;
 }
 
