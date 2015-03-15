@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<title>一起写</title>
+<link href="styles/feather.css" rel="stylesheet" type="text/css">
+<link href="styles/editor.css" rel="stylesheet" type="text/css">
+<link href="styles/menu.css" rel="stylesheet" type="text/css">
+<link href="styles/switch.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="menu-wrapper">
+  <div id="menu-container">
+    <div class="menu icon-upload" id="menu-upgrade"><span>控制面板</span></div>
+    <div class="menu icon-cog" id="menu-setting"><span>设置</span></div>
+    <div class="menu icon-cross" id="menu-exit"><span>退出</span></div>
+    <div class="menu" id="menu-start"><span>西西里园艺师</span></div>
+  </div>
+</div>
+<div id="nav">
+  <div id="logo" class="switch-yiqixie"></div>
+  <div id="ebtn-wrapper">
+    <div class="ebtn-group"><span class="icon-undo ebtn ebtn-left"></span><span class="icon-redo ebtn ebtn-right disabled"></span></div>
+    <div class="ebtn-group"><span class="icon-bold ebtn ebtn-left"></span><span class="icon-italic ebtn"></span><span class="icon-underline ebtn"></span><span class="icon-strike ebtn"></span><span class="icon-superscript ebtn ebtn-left"></span><span class="icon-subscript ebtn"></span><span class="icon-color ebtn"></span><span class="icon-clear ebtn"></span><span class="icon-brush ebtn ebtn-right"></span></div>
+    <div class="ebtn-group"><span class="icon-align-left ebtn ebtn-left"></span><span class="icon-align-center ebtn"></span><span class="icon-align-right ebtn"></span><span class="icon-align-justify ebtn ebtn-right"></span></div>
+    <div class="ebtn-group"><span class="icon-indent-right ebtn ebtn-left"></span><span class="icon-indent-left ebtn ebtn-right"></span></div>
+    <div class="ebtn-group"><span class="icon-list-number ebtn"></span><span class="icon-list-bullet ebtn ebtn-right"></span></div>
+    <div class="ebtn-group"><span class="icon-image ebtn ebtn-left"></span><span class="icon-link ebtn"></span><span class="icon-comment-add ebtn"></span><span class="icon-microphone ebtn-right ebtn"></span></div>
+    <div class="ebtn-group"><span class="icon-table ebtn ebtn-left"></span><span class="icon-table-add-col-left ebtn"></span><span class="icon-table-add-col-right ebtn"></span><span class="icon-table-remove-col ebtn"></span><span class="icon-table-add-row-above ebtn"></span><span class="icon-table-add-row-below ebtn"></span><span class="icon-table-remove-row ebtn"></span></div>
+    <div class="ebtn-group"><span class="icon-collaborator-add ebtn ebtn-left"></span><span class="icon-collaborator-remove ebtn"></span></div>
+  </div>
+</div>
+<span class="btn btn-back icon-back" id="btn-back"></span>
+<span class="btn btn-screen-full icon-screen-full" id="col-toggle"></span>
+<div id="log-wrapper">
+  <div class="comment-group" id="c01">
+    <div class="comment"> <a href="#" class="user">CJ</a>：<a href="#" class="quote">@贝贝姜</a> 这里是不是可以改一下？</div>
+    <div class="comment"> <a class="user">贝贝姜</a>：<a href="#" class="quote">@CJ</a> 好吧……</div>
+    <div class="comment"> <a class="user">西西里园艺师</a>：改完了么？</div>
+    <div class="comment"> <a class="user">贝贝姜</a>：<a href="#" class="quote">@西西里园艺师</a> 搞掂了！</div>
+    <div class="time">最后更新：2015/01/03 15:00</div>
+    <div class="comment-add">
+      <input type="text" class="input">
+      <span class="btn btn-reply icon-reply"></span></div>
+  </div>
+  <div class="comment-group" id="c02">
+    <div class="comment"> <a href="#" class="user">西西里园艺师</a>：这里不错</div>
+    <div class="comment"> <a class="user">CJ</a>： <a href="#" class="quote">@西西里园艺师</a> 同意~~~</div>
+    <div class="comment"> <a class="user">徐阳</a>：还行</div>
+    <div class="comment"> <a class="user">贝贝姜</a>：没感觉</div>
+    <div class="time">最后更新：2015/01/02 12:00</div>
+    <div class="comment-add">
+      <input type="text" class="input">
+      <span class="btn btn-reply icon-reply"></span></div>
+  </div>
+  <div class="comment-group" id="c03">
+    <div class="comment"> <a href="#" class="user">贝贝姜</a>：好向往</div>
+    <div class="comment"> <a class="user">西西里园艺师</a>： 去吧</div>
+    <div class="comment"> <a class="user">徐阳</a>：我也想去</div>
+    <div class="comment"> <a class="user">CJ</a>：<a href="#" class="quote">@贝贝姜</a>我去过，还可以</div>
+    <div class="time">最后更新：2015/01/01 12:00</div>
+    <div class="comment-add">
+      <input type="text" class="input">
+      <span class="btn btn-reply icon-reply"></span></div>
+  </div>
+</div>
+<div id="editor-wrapper">
+  <div class="page" contenteditable="true">
+    <h1>钓胜于鱼</h1>
+    <h2>陈之藩</h2>
+    <p>每天早晨我在湖边整理小艇，常有银发的老教授蹒跚地走来。</p>
+    <p>“早安”，他老远的打招呼。</p>
+    <p>“今天还出去划船吗？”我问。</p>
+    <p><span class="mark-comment" id="m01">“当然，天气真好啊，我太喜欢钓鱼，可惜这湖中的鱼不大。”</span></p>
+    <p>“反正你是为钓，并非为鱼。”</p>
+    <p>“对极了，对极了，我是为钓，不是为鱼。”他一边说着，一边登上小船，带着他的钓具与几本书，马达照例不开，双桨轻轻划破水面，悠然远去。</p>
+    <p>我抬头目送他远去，眼前的景色，令人欲醉。好像只有华兹华斯的歌声足以形容：</p>
+    <p><i>这一幅风光，如梦</i></p>
+    <p><i>山这样清秀</i></p>
+    <p><i>水这样澄清</i></p>
+    <p><i>山与水之间相接了</i></p>
+    <p><i>这山啊</i></p>
+    <p><i>有多高耸入云端</i></p>
+    <p><i>就有多深映入水中</i></p>
+    <p><span class="mark-comment" id="m03">日光直射的水面，是一条银河，其余的湖面是一片澄碧。小舟的影子越来越远，桨声的起落越来越轻，这一叶扁舟终于消失在一片黎明的眩光中，我的思潮好像也冲入——静谧的山谷里。</span></p>
+    <p>这位老教授在哥伦比亚教书，他是宾夕法尼亚大学毕业的。因为我也在宾大上学，所以他每天总好奇的与我谈几句，好像在与我谈话中，还可以寻觅到他的青春。他在哥大已教书30年了，这几年的暑假常到这湖边来。每天扁舟垂钓，竟日方归，最多能钓两条二三英寸长的小鱼，而他的享受却是在钓。</p>
+    <p><span class="mark-comment" id="m02">能够欣赏钓，而不计较鱼，是使一个人快乐，使一个团体健康，使一个社会成功的条件。美国有许多学者，在一个学校工作，一工作就是一生，真是数十年如一日。以宾大而论，今年就养着108个退休的老教授；这些教授服务于宾大，最少的已有1/4世纪，长些的有服务40年的。</span>并不是美国人的耐性特别长，实是他们从工作本身发现无限的趣味，感觉自己沉醉于鸟语花香和山清水媚之中。至于鱼竿之下是否有鱼，他们反而忘了。</p>
+    <p>普渡大学校长郝德说：“科学的无限疆界，展开在人类面前。”每个知识的先驱者所面对的，由外人看来，好像是山穷水尽的泥穴，其实在他自己看来，却是花繁叶满的桃源，因而流连忘返，因而乐此不疲，都是理宜固然的。</p>
+    <p>因为工作本身的兴趣，有时使一个人至于疯狂。宾大有位教授魏刚，是自动机械专家，因读书入了迷，工作时间的拼命努力自不待言，即是吃饭睡觉也常常失去正轨，脑筋依然在想，不得休息。最后他实在太疲倦，想出一个特别的办法，以休养脑筋，即锯木头。他家里堆一大堆木材，每天他要把木块锯成小块，把小块锯成更小，以资休息。偶然看来，很像疯人院撕纸的疯子，知识追求的本身，竟有如此魔力。</p>
+    <p>当然，在这种境界中的人，是无法再生名利观念的。爱因斯坦刚到普林斯敦时，主事人问他一年要多少薪俸，他说5000差不多了。一年5000元是物理系刚毕业的学生的水准。主事人说：“给你年俸5000，给别人就不要给了，请你为我们着想一下，还是勉强订年俸15000元吧。”</p>
+    <p>其实，爱因斯坦常忘了兑取支票，正如钓鱼者钓上鱼来，又抛入水中一样。他们从来就未考虑到这些琐事。</p>
+    <p>科学家不仅忘了薪俸的多寡，有时即使厚禄巨利的机会到来，在他们眼中，也淡如云烟。发明那个原子冲击器的劳伦斯，刚一发明时，有人说，他要请求专利，要比瓦特发的财大，但他只笑了笑，好像是说有那个申请专利的工夫，还不如多冲击几种原子呢。</p>
+    <p>正因为有钓胜于鱼的观念作基础，所以不会产生向上爬的习惯，也不会产生学而优则仕的风气。每一个学者一旦发现了自己的兴趣所在，一直将此兴趣带到坟墓里，发明小儿麻痹症预防针的沙克，最近对人说：“我所确知的是：科学家不是政治家。我不是明星，让我回到实验室去。”</p>
+    <p>然而，不是为鱼的钓者却常常钓上大的鱼来，因为他终身在水滨，常有机会到来，非如缘木求鱼的“智者”，徒劳心力而已。</p>
+    <p>日已正午，老者的扁舟又悠然划回来了，照例的提着他的两条小鱼，登上岸来向我笑了笑，并且说：“我是为钓，不是为鱼。”</p>
+    <p>老者的背影消失在山坡的绿丛里，惟日光照去，他的发色与鱼的鳞色俱闪银光。</p>
+    <p>其实人生不过是在并不幽静的水边空钓一场的玩笑，又哪儿来的鱼？</p>
+  </div>
+</div>
+<div class="clear"></div>
+<script src="./js/jquery-1.11.1.min.js"></script> 
+<script src="./js/jquery.easing.1.3.js"></script> 
+<script src="./js/editor.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/switch.js"></script>
+</body>
+</html>

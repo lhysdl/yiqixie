@@ -81,15 +81,17 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 58px;
+	height: 47px;
 	background: #fff;
 }
 
 #nav #logo {
 	display: block;
-	background: url(../images/name.png) no-repeat center center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 30px;
 	width: 320px;
-	height: 56px;
+	height: 47px;
 	border-right: #e0e0e0 solid 1px;
 	float: left;
 	position: relative;
@@ -121,7 +123,7 @@ body {
 #ebtn-wrapper {
 	width: auto;
 	margin-left: 321px;
-	padding: 12px 20px;
+	padding: 8px 20px;
 }
 
 .ebtn-group {
@@ -175,7 +177,7 @@ body {
 #log-wrapper {
 	position: absolute;
 	left: 0;
-	top: 56px;
+	top: 47px;
 	width: 320px;
 	bottom: 0;
 	overflow: auto;
@@ -278,7 +280,7 @@ body {
 	width: auto;
 	position: absolute;
 	left: 321px;
-	top: 56px;
+	top: 47px;
 	right: 0;
 	bottom: 0;
 	border-top: #e0e0e0 1px solid;
@@ -330,19 +332,19 @@ body {
 
 .btn-screen-full {
 	position: absolute;
-	top: 13px;
+	top: 9px;
 	left: 270px;
 }
 
 .btn-screen-split {
 	position: absolute;
-	top: 13px;
+	top: 9px;
 	left: 20px;
 }
 
 .btn-back {
 	position: absolute;
-	top: 13px;
+	top: 9px;
 	left: 20px;
 }
 

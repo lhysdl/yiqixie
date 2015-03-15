@@ -94,6 +94,10 @@
 	vertical-align: middle;
 }
 
+.switch-yiqixie {
+	background-image: url(../images/yiqixie.png);
+}
+
 .switch-google {
 	background-image: url(../images/google.png);
 }
@@ -141,6 +145,7 @@
 .switch-telekom {
 	background-image: url(../images/telekom.png);
 }
+
 
 
 
