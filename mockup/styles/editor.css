@@ -850,11 +850,10 @@ body {
 
 /* === Search === */
 
-#logo {
+img.logo {
 	display: inline-block;
-	width: 100px;
+	width: auto;
 	height: 30px;
-	background: url(../images/name.png) no-repeat center center;
 }
 
 #search-wrapper {
