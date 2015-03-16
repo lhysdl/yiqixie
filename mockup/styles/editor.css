@@ -47,13 +47,14 @@ body {
 /* === Header === */
 
 #header {
-	height: 47px;
+	height: 48px;
 	background: #fff;
 	border-bottom: #e0e0e0 solid 1px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+	text-align: center;
 }
 
 #header * {
@@ -65,12 +66,12 @@ body {
 #body {
 	position: fixed;
 	background: red;
-	top: 48px;
+	top: 49px;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	overflow: auto;
-	padding: 30px 30px 0 30px;
+	padding: 30px 20px 0 20px;
 	background: #f0f0f0;
 }
 
@@ -81,7 +82,7 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 47px;
+	height: 48px;
 	background: #fff;
 }
 
@@ -91,7 +92,7 @@ body {
 	background-position: center center;
 	background-size: auto 30px;
 	width: 320px;
-	height: 47px;
+	height: 48px;
 	border-right: #e0e0e0 solid 1px;
 	float: left;
 	position: relative;
@@ -177,7 +178,7 @@ body {
 #log-wrapper {
 	position: absolute;
 	left: 0;
-	top: 47px;
+	top: 48px;
 	width: 320px;
 	bottom: 0;
 	overflow: auto;
@@ -280,7 +281,7 @@ body {
 	width: auto;
 	position: absolute;
 	left: 321px;
-	top: 47px;
+	top: 48px;
 	right: 0;
 	bottom: 0;
 	border-top: #e0e0e0 1px solid;
