@@ -39,10 +39,21 @@ body {
 	vertical-align: middle;
 }
 
-/* === Red === */
-
 .warning {
 	color: #ff7200 !important;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+/* === Index === */
+
+.ny {
+	background: url(../images/ny.png) no-repeat center center;
+	background-size: cover;
+	height: 360px;
+	border-bottom: #e0e0e0 solid 1px;
 }
 
 /* === Header === */
@@ -348,6 +359,15 @@ body {
 	position: absolute;
 	top: 9px;
 	left: 20px;
+}
+
+.btn-upgrade {
+	position: absolute;
+	top: 9px;
+	right: 20px;
+	font-size: 13px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* === Mark === */
