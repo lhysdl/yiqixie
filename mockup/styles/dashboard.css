@@ -9,7 +9,7 @@
 
 .panel {
 	color: #333;
-	padding: 20px;
+	padding: 10px 20px 20px 20px;
 	background: #fff;
 	border: #e0e0e0 solid 1px;
 	border-radius: 8px;
@@ -20,17 +20,17 @@
 .panel-title {
 	color: #05b2d2;
 	font-size: 20px;
-	vertical-align: middle;
-	margin-bottom: 10px;
-}
-
-.panel-title * {
-	vertical-align: middle;
+	line-height: 24px;
+	margin-bottom: 15px;
+	position: relative;
 }
 
 .panel-title span {
+	vertical-align: top;
+}
+
+.panel-title span.title {
 	color: #333;
-    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
 	font-size: 16px;
 	font-weight: 100;
 	margin-left: 10px;
@@ -55,7 +55,26 @@
 	background: #f0f0f0;
 }
 
-.panel table a {
+.panel a {
 	color: #05b2d2;
+	text-decoration: none;
 }
 
+.panel a:hover {
+	color: #e6685b;
+	text-decoration: underline;
+}
+
+.panel p {
+	font-size: 16px;
+}
+
+.panel-btn {
+	font-size: 16px;
+	width： 20px;
+	height: 20px;
+	position: absolute;
+	cursor: pointer;
+	line-height: 24px;
+	right: 0;
+}
