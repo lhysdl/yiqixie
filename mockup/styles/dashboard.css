@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.panel-wrapper {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.panel {
+	color: #333;
+	padding: 20px;
+	background: #fff;
+	border: #e0e0e0 solid 1px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.panel-title {
+	color: #05b2d2;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.panel-title * {
+	vertical-align: middle;
+}
+
+.panel-title span {
+	color: #333;
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
+	font-size: 16px;
+	font-weight: 100;
+	margin-left: 10px;
+}
+
+.panel table {
+	font-size: 13px;
+	font-weight: 100;
+	color: #333;
+	border-collapse: collapse;
+	border: #e0e0e0 solid 1px;
+}
+
+.panel table th, .panel table td {
+	padding: 5px;
+	text-align: center;
+}
+
+.panel table th {
+	font-weight: 100;
+	background: #f0f0f0;
+}
+
+.panel table a {
+	color: #05b2d2;
+}
+

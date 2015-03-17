@@ -14,6 +14,7 @@ html {
 	background: #f0f0f0;
 	background-size: cover;
     font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
+	font-weight: 100;
 	height: 100%;
 }
 
@@ -859,9 +860,9 @@ img.logo {
 	height: 30px;
 }
 
-#search-wrapper {
+#header-wrapper {
 	width: auto;
-	margin: 9px 0 0 30px;
+	margin-top: 9px;
 }
 
 .search-input {
