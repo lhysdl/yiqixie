@@ -14,6 +14,7 @@
 	border: #e0e0e0 solid 1px;
 	border-radius: 8px;
 	margin-bottom: 20px;
+	line-height: 24px;
 }
 
 .panel-title {
@@ -33,6 +34,7 @@
 	font-size: 16px;
 	font-weight: 100;
 	margin-left: 10px;
+	line-height: 24px;
 }
 
 .panel table {
