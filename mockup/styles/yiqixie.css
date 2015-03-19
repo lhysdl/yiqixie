@@ -8,6 +8,7 @@
 	-ms-user-select: none;
 	-khtml-user-select: none;
 	user-select: none;
+	outline: none;
 }
 
 html {
@@ -35,8 +36,15 @@ body {
 	padding: 0 10px;
 	border: #e0e0e0 1px solid;
 	border-radius: 4px;
-	outline: none;
 	vertical-align: middle;
+}
+
+.input-file {
+	color: #333;
+	font-size: 16px;
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
+	font-weight: 100;
+
 }
 
 .warning {
@@ -125,10 +133,18 @@ body {
 	line-height: 28px;
 	text-align: center;
 	cursor: pointer;
+	text-decoration: none;
+}
+
+.btn-text {
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .btn:hover {
 	color: #e6685b;
+	text-decoration: none !important;
 }
 
 /* === Editor Buttons === */
@@ -283,7 +299,6 @@ body {
 	padding: 0 5px;
 	border: #e0e0e0 1px solid;
 	border-radius: 4px;
-	outline: none;
 }
 
 /* === Editor === */
@@ -313,7 +328,6 @@ body {
 	border: #e0e0e0 solid 1px;
 	border-radius: 4px;
 	line-height: 1.4em;
-	outline: none;
 }
 .page p {
 	font-size: 14px;
@@ -365,9 +379,6 @@ body {
 	position: absolute;
 	top: 9px;
 	right: 20px;
-	font-size: 13px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 /* === Mark === */

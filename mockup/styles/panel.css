@@ -8,6 +8,7 @@
 }
 
 .panel {
+	font-size: 16px;
 	color: #333;
 	padding: 10px 20px 20px 20px;
 	background: #fff;
@@ -23,6 +24,8 @@
 	line-height: 24px;
 	margin-bottom: 15px;
 	position: relative;
+	border-bottom: #e0e0e0 solid 1px;
+	padding-bottom: 10px;
 }
 
 .panel-title span {
@@ -67,6 +70,15 @@
 
 .panel p {
 	font-size: 16px;
+	margin-top: 1em;
+}
+
+.panel label {
+	display: inline-block;
+	color: #05b2d2;
+	width: 120px;
+	text-align: right;
+	margin-right: 10px;
 }
 
 .panel-btn {
@@ -77,4 +89,14 @@
 	cursor: pointer;
 	line-height: 24px;
 	right: 0;
+}
+
+.panel .btns {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.panel .btn-space {
+	display: inline-block;
+	width: 20px;
 }

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>一起写 - 管理</title>
+<title>一起写 - 注册</title>
 <link href="styles/fonts.css" rel="stylesheet" type="text/css">
 <link href="styles/yiqixie.css" rel="stylesheet" type="text/css">
 <link href="styles/menu.css" rel="stylesheet" type="text/css">
@@ -11,12 +11,26 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 </head>
 <body>
-<div id="header">
+<div id="header"> <a class="btn btn-back icon-back" id="btn-back" href="index.html"></a>
   <div id="header-wrapper"> <img src="images/name.png" class="logo" alt="一起写"/> </div>
-<a class="btn btn-text btn-upgrade" id="btn-back" href="register.html">升级用户</a>
 </div>
-<div id="body" class="no-padding">
-  <div class="ny"></div>
+<div id="body">
+  <div class="panel-wrapper">
+    <div class="panel">
+      <div class="panel-title"> <span class="icon-paper"></span><span class="title">请填写以下注册信息</span></div>
+      <p>
+        <label>机构名称：</label>
+        <input class="input" size="8" id="orgname">
+      </p>
+      <p>
+        <label>机构图标：</label>
+        <input type="file" id="logo" class="input-file">
+      </p>
+      <div class="btns">
+      <a class="btn btn-text" href="#">确定</a><span class="btn-space"></span><a class="btn btn-text" href="#">取消</a>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="dialog-mark" id="dialog-close">
   <div class="dialog">
