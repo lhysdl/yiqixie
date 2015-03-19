@@ -96,7 +96,17 @@
 	margin-top: 20px;
 }
 
+.panel .btns .btn {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 .panel .btn-space {
 	display: inline-block;
 	width: 20px;
 }
+
+table .alter {
+	background: #f2fdff;
+}
+	
