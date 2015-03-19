@@ -97,8 +97,7 @@
 }
 
 .panel .btns .btn {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 5px 50px;
 }
 
 .panel .btn-space {
@@ -108,5 +107,4 @@
 
 table .alter {
 	background: #f2fdff;
-}
-	
+}	

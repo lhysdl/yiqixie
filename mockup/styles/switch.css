@@ -154,6 +154,10 @@
 	background-image: url(../images/telekom.png);
 }
 
-
-
-
+.qrcoder {
+	display: inline-block;
+	width: 205px;
+	height: 205px;
+	background: #fff url(../images/qrcode.png) no-repeat center center;
+	border-radius: 8px;
+}
