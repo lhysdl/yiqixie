@@ -54,7 +54,7 @@
 }
 
 .panel table th {
-	font-weight: 100;
+	font-weight: bold;
 	background: #f0f0f0;
 }
 
@@ -91,15 +91,6 @@
 	right: 0;
 }
 
-.panel .btns {
-	text-align: center;
-	margin-top: 20px;
-}
-
-.panel .btns .btn {
-	padding: 5px 50px;
-}
-
 .panel .btn-space {
 	display: inline-block;
 	width: 20px;
@@ -107,4 +98,12 @@
 
 table .alter {
 	background: #f2fdff;
-}	
+}
+
+table .red {
+	background: #fff0f0;
+}
+
+table .green {
+	background: #f0fff0;
+}

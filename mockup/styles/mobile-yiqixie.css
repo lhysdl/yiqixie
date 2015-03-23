@@ -302,7 +302,7 @@ body {
 
 /* === Mask === */
 
-#mask {
+.mask {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -314,7 +314,7 @@ body {
 	display: none;
 }
 
-#mask-close {
+.mask-close {
 	display: block;
 	font-size: 24px;
 	color: #fff;

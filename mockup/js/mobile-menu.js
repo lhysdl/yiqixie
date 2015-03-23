@@ -10,13 +10,10 @@ $("#btn-menu").click(function() {
 		$("#col-right").animate({marginLeft: "160px"}, 200, "easeInCubic");
 	}
 });
-$("#menu-switch").click(function() {
-	$("#mask").show();
-});
 $(".logo").click(function() {
-	$("#mask").show();
+	$("#mask-switch").show();
 });
-$("#mask-close").click(function() {
+$(".mask-close").click(function() {
 	$(this).parent().hide();
 	return(false);
 });

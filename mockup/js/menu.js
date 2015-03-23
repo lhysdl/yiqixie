@@ -20,12 +20,12 @@ $("#menu-wrapper").mouseleave(function() {
 	return(false);
 });
 $("#menu-switch").click(function() {
-	$("#mask").show();
+	$("#mask-switch").show();
 });
 $(".logo").click(function() {
-	$("#mask").show();
+	$("#mask-switch").show();
 });
-$("#mask-close").click(function() {
+$(".mask-close").click(function() {
 	$(this).parent().hide();
 	return(false);
 });

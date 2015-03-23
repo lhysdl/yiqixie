@@ -157,14 +157,21 @@ body {
 }
 
 .btn-text {
-	font-size: 16px;
-	padding-left: 10px;
-	padding-right: 10px;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .btn:hover {
 	color: #e6685b;
 	text-decoration: none !important;
+}
+
+.btns {
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: #e0e0e0 solid 1px;
 }
 
 /* === Editor Buttons === */
@@ -812,22 +819,10 @@ body {
 
 /* === Dialog === */
 
-.dialog-mark {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.75);
-	display: none;
-	z-index: 999;
-}
-
 .dialog {
+	position: absolute;
 	width: 400px;
 	height: auto;
-	position: absolute;
-	position: absolute;
 	left: 50%;
 	top: 50%;
 	margin-left: -200px;
@@ -835,19 +830,35 @@ body {
 	background: #fff;
 	border: #e0e0e0 solid 1px;
 	border-radius: 8px;
+	padding: 10px 20px 20px 20px;
 }
 
-.dialog .dialog-header {
-	background: #f0f0f0;
+.dialog-title {
+	color: #05b2d2;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 15px;
+	position: relative;
 	border-bottom: #e0e0e0 solid 1px;
-	border-radius: 8px 8px 0 0;
-	padding: 10px 20px;
-	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.dialog-title span {
+	vertical-align: top;
+}
+
+.dialog-title span.title {
 	color: #333;
+	font-size: 16px;
+	font-weight: 100;
+	margin-left: 10px;
+	line-height: 24px;
 }
 
 .dialog .dialog-footer {
-	padding-bottom: 20px;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: #e0e0e0 solid 1px;
 	text-align: center;
 }
 
@@ -859,30 +870,6 @@ body {
 	color: #333;
 	font-size: 16px;
 	padding: 40px 20px;
-}
-
-.dialog .dialog-footer .btn {
-	display: inline-block;
-	vertical-align: middle;
-	background: #05b2d2;
-	border-radius: 4px;
-	color: #fff;
-	font-size: 14px;
-	margin-right: 20px;
-	padding: 10px 30px;
-	cursor: pointer;
-}
-
-.dialog .dialog-footer .btn:hover {
-	background-color: #e6685b;
-}
-
-.dialog .dialog-footer .btn-red {
-	background-color: #e6685b;
-}
-
-.dialog .dialog-footer .btn-last {
-	margin: 0;
 }
 
 .dialog .dialog-close {
@@ -928,7 +915,7 @@ img.logo {
 
 /* === Mask === */
 
-#mask {
+.mask {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -940,7 +927,7 @@ img.logo {
 	display: none;
 }
 
-#mask-close {
+.mask-close {
 	display: block;
 	font-size: 24px;
 	color: #fff;
