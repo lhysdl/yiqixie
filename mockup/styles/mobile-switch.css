@@ -8,6 +8,7 @@
 	left: 0;
 	text-align: center;
 	line-height: 100%;
+	overflow: scroll;
 }
 
 .switch:after{
@@ -20,7 +21,7 @@
 
 .switch-item {
 	display: inline-block;
-	width: 142px;
+	width: 114px;
 	height: auto;
 	margin: 20px;
 	cursor: pointer;
@@ -38,8 +39,8 @@
 
 .switch-border {
 	display: block;
-	width: 142px;
-	height: 142px;
+	width: 114px;
+	height: 114px;
 	background-color: #fff;
 	border-radius: 71px;
 	position: relative;
@@ -48,12 +49,12 @@
 .switch-logo {
 	position: absolute;
 	display: block;
-	width: 100px;
-	height: 100px;
-	top: 71px;
-	left: 71px;
-	margin-top: -50px;
-	margin-left: -50px;
+	width: 80px;
+	height: 80px;
+	top: 57px;
+	left: 57px;
+	margin-top: -40px;
+	margin-left: -40px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -64,13 +65,9 @@
 	font-weight: 100;
 	display: block;
 	color: #05b2d2;
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: 20px;
 	padding: 4px;
-}
-
-.switch-selected {
-	opacity: 1;
 }
 
 .switch-selected .switch-name {
@@ -81,7 +78,7 @@
 
 .switch-title {
 	color: #fff;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
 	margin: 40px 0 40px 0;
 }

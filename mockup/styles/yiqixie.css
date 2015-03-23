@@ -926,7 +926,7 @@ img.logo {
 }
 
 
-/* === Loading === */
+/* === Mask === */
 
 #mask {
 	position: fixed;
@@ -959,6 +959,8 @@ img.logo {
 .mask-close:hover {
 	color: #e6685b;
 }
+
+/* === Loading === */
 
 #loading #loading-bg {
 	width: 70px;
