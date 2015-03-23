@@ -312,6 +312,15 @@ body {
 	background: rgba(0, 0, 0, 0.8);
 	z-index: 999;
 	display: none;
+	text-align: center;
+}
+
+.mask:after {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	content: '';
 }
 
 .mask-close {

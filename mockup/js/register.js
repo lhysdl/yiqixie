@@ -1,4 +1,4 @@
 // JavaScript Document
 $("#btn-ok").click(function() {
-	$("#mask").show();
+	$("#mask-qrcode").show();
 });

@@ -1,21 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-.switch {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+.switch-wrapper {
+	display: inline-block;
+	width: 80%;
+	height: auto;
 	text-align: center;
-	line-height: 100%;
-}
-
-.switch:after{
-	display:inline-block;
-	width:0;
-	height:100%;
-	vertical-align:middle;
-	content:'';
+	vertical-align: middle;
 }
 
 .switch-item {
@@ -84,14 +74,6 @@
 	font-size: 24px;
 	text-align: center;
 	margin: 40px 0 40px 0;
-}
-
-.switch-wrapper {
-	display: inline-block;
-	width: 80%;
-	height: auto;
-	text-align: center;
-	vertical-align: middle;
 }
 
 .switch-yiqixie1 {

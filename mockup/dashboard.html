@@ -41,7 +41,7 @@
       <div class="btns"><a href="#" class="btn btn-text">现在支付</a></div>
     </div>
     <div class="panel">
-      <div class="panel-title"><span class="icon-head"></span><span class="title">账户管理</span><a href="#" class="panel-btn">邀请</a></div>
+      <div class="panel-title"><span class="icon-head"></span><span class="title">账户管理</span><a href="#" class="btn btn-text panel-btn" id="btn-invite">邀请</a></div>
       <div>
         <table width="100%" border="1">
           <tbody>
@@ -100,7 +100,7 @@
       <div class="btns"><a href="#" class="btn btn-text">下载邀请二维码</a></div>
     </div>
     <div class="panel">
-      <div class="panel-title"><span class="icon-folder"></span><span class="title">群组管理</span><a href="#" class="panel-btn">新增</a></div>
+      <div class="panel-title"><span class="icon-folder"></span><span class="title">群组管理</span><a href="#" class="btn btn-text panel-btn">新增</a></div>
       <table width="100%" border="1">
         <tbody>
           <tr>
@@ -137,7 +137,6 @@
   </div>
 </div>
 <div class="mask" id="mask-switch"> <span class="mask-close icon-cross"></span>
-  <div class="switch">
     <div class="switch-wrapper">
       <div class="switch-title">请切换机构</div>
       <div class="switch-item"> <span class="switch-border"><span class="switch-logo switch-yiqixie"></span></span> <span class="switch-name">个人账户</span> </div>
@@ -154,19 +153,28 @@
       <div class="switch-item"> <span class="switch-border"><span class="switch-logo switch-siemens"></span></span> <span class="switch-name">Siemens</span> </div>
       <div class="switch-item"> <span class="switch-border"><span class="switch-logo switch-telekom"></span></span> <span class="switch-name">Telekom</span> </div>
     </div>
-  </div>
 </div>
 <div class="mask" id="mask-dialog">
-  <div class="dialog">
-    <div class="dialog-header">退出<span class="dialog-close icon-cross"></span></div>
-    <div class="dialog-body text-center">确定要退出吗？</div>
-    <div class="dialog-footer"><span class="btn">确 定</span><span class="btn btn-red btn-last">放 弃</span></div>
+  <div class="dialog"> <span class="dialog-close icon-cross"></span>
+    <div class="dialog-title"><span class="icon-head"></span><span class="title">邀请</span></div>
+    <div class="dialog-body text-center">
+      <p>
+        <label>姓名：</label>
+        <input class="input" size="8" id="orgname" id="name">
+      </p>
+      <p>
+        <label>邮箱：</label>
+        <input class="input" size="8" id="orgname" id="email">
+      </p>
+    </div>
+    <div class="dialog-footer"><span class="btn btn-text">确定</span><span class="btn-space"></span><span class="btn btn-text">取消</span></div>
   </div>
 </div>
 <script src="./js/jquery-1.11.1.min.js"></script> 
 <script src="./js/jquery.easing.1.3.js"></script> 
 <script src="./js/list.js"></script> 
 <script src="./js/menu.js"></script> 
-<script src="./js/switch.js"></script>
+<script src="./js/switch.js"></script> 
+<script src="./js/dashboard.js"></script>
 </body>
 </html>

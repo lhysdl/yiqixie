@@ -29,3 +29,7 @@ $(".mask-close").click(function() {
 	$(this).parent().hide();
 	return(false);
 });
+$(".dialog-close").click(function() {
+	$(this).parent().parent().hide();
+	return(false);
+});

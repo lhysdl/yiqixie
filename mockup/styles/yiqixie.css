@@ -29,7 +29,8 @@ body {
 
 .input {
 	color: #333;
-	font-size: 14px;
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
+	font-size: 16px;
 	height: 28px;
 	line-height: 30px;
 	width: 205px;
@@ -172,6 +173,11 @@ body {
 	padding-top: 15px;
 	margin-top: 15px;
 	border-top: #e0e0e0 solid 1px;
+}
+
+.btn-space {
+	display: inline-block;
+	width: 20px;
 }
 
 /* === Editor Buttons === */
@@ -819,37 +825,55 @@ body {
 
 /* === Dialog === */
 
-.dialog {
+.dialog-wrapper {
 	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	line-height: 100%;
+}
+
+.dialog {
+	display: inline-block; 
 	width: 400px;
 	height: auto;
-	left: 50%;
-	top: 50%;
-	margin-left: -200px;
-	margin-top: -90px;	
 	background: #fff;
-	border: #e0e0e0 solid 1px;
 	border-radius: 8px;
-	padding: 10px 20px 20px 20px;
+	padding: 15px 20px 0 20px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.dialog:after {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	background: red;
+	content: '';
 }
 
 .dialog-title {
 	color: #05b2d2;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 24px;
 	margin-bottom: 15px;
 	position: relative;
 	border-bottom: #e0e0e0 solid 1px;
 	padding-bottom: 10px;
+	text-align: left;
 }
 
 .dialog-title span {
-	vertical-align: top;
+	line-height: 24px;
+	vertical-align: bottom;
 }
 
 .dialog-title span.title {
 	color: #333;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 100;
 	margin-left: 10px;
 	line-height: 24px;
@@ -862,24 +886,24 @@ body {
 	text-align: center;
 }
 
-.dialog .dialog-header {
-	padding: 10px;
-}
-
 .dialog .dialog-body {
 	color: #333;
 	font-size: 16px;
-	padding: 40px 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .dialog .dialog-close {
 	position: absolute;
-	top: 10px;
-	right: 10px;
-	bottom: 10px;
-	font-size: 18px;
+	display: block;
+	top: 15px;
+	right: 20px;
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
 	color: #05b2d2;
 	cursor: pointer;
+	z-index: 1000;
 }
 
 .dialog .dialog-close:hover {
@@ -888,6 +912,15 @@ body {
 
 .dialog p {
 	margin-bottom: 1em;
+}
+
+.dialog label {
+	font-size: 16px;
+	display: inline-block;
+	color: #05b2d2;
+	width: 50px;
+	text-align: right;
+	margin-right: 10px;
 }
 
 /* === Search === */
@@ -924,6 +957,8 @@ img.logo {
 	background: #000;
 	background: rgba(0, 0, 0, 0.8);
 	z-index: 999;
+	line-height: 100%;
+	text-align: center;
 	display: none;
 }
 
@@ -945,6 +980,14 @@ img.logo {
 
 .mask-close:hover {
 	color: #e6685b;
+}
+
+.mask:after {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	content: '';
 }
 
 /* === Loading === */

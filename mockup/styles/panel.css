@@ -10,7 +10,7 @@
 .panel {
 	font-size: 16px;
 	color: #333;
-	padding: 10px 20px 20px 20px;
+	padding: 15px 20px 20px 20px;
 	background: #fff;
 	border: #e0e0e0 solid 1px;
 	border-radius: 8px;
@@ -20,7 +20,7 @@
 
 .panel-title {
 	color: #05b2d2;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 24px;
 	margin-bottom: 15px;
 	position: relative;
@@ -29,12 +29,13 @@
 }
 
 .panel-title span {
-	vertical-align: top;
+	line-height: 24px;
+	vertical-align: middle;
 }
 
 .panel-title span.title {
 	color: #333;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 100;
 	margin-left: 10px;
 	line-height: 24px;
@@ -45,12 +46,12 @@
 	font-weight: 100;
 	color: #333;
 	border-collapse: collapse;
-	border: #e0e0e0 solid 1px;
 }
 
 .panel table th, .panel table td {
 	padding: 5px;
 	text-align: center;
+	border: #e0e0e0 solid 1px;
 }
 
 .panel table th {
@@ -74,6 +75,7 @@
 }
 
 .panel label {
+	font-size: 16px;
 	display: inline-block;
 	color: #05b2d2;
 	width: 120px;
@@ -82,18 +84,9 @@
 }
 
 .panel-btn {
-	font-size: 16px;
-	width： 20px;
-	height: 20px;
 	position: absolute;
-	cursor: pointer;
-	line-height: 24px;
+	top: 0;
 	right: 0;
-}
-
-.panel .btn-space {
-	display: inline-block;
-	width: 20px;
 }
 
 table .alter {
