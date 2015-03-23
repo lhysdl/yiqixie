@@ -32,8 +32,4 @@ $(document).ready(function(e) {
 	$(".file").mouseleave(function() {
 		$(this).children(".file-menu").hide();
 	});
-	$("#mask-close").click(function() {
-		$(this).parent().hide();
-		return(false);
-	});
 });

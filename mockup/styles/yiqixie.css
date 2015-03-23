@@ -125,7 +125,7 @@ body {
 	background: #fff;
 }
 
-#nav #logo {
+#nav .logo {
 	display: block;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -135,13 +135,14 @@ body {
 	border-right: #e0e0e0 solid 1px;
 	float: left;
 	position: relative;
+	cursor: pointer;
 }
 
 /* === Normal Button === */
 
 .btn {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 24px;
 	border: #e0e0e0 solid 1px;
 	border-radius: 4px;
 	color: #05b2d2;
@@ -184,7 +185,7 @@ body {
 
 .ebtn {
 	display: inline-block;
-	font-size: 20px;
+	font-size: 24px;
 	border-right: #e0e0e0 solid 1px;
 	color: #05b2d2;
 	width: 36px;
@@ -908,6 +909,7 @@ img.logo {
 	display: inline-block;
 	width: auto;
 	height: 30px;
+	cursor: pointer;
 }
 
 #header-wrapper {

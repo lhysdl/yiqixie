@@ -22,3 +22,10 @@ $("#menu-wrapper").mouseleave(function() {
 $("#menu-switch").click(function() {
 	$("#mask").show();
 });
+$(".logo").click(function() {
+	$("#mask").show();
+});
+$("#mask-close").click(function() {
+	$(this).parent().hide();
+	return(false);
+});
