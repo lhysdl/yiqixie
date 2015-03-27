@@ -7,7 +7,7 @@
 }
 
 html {
-	background: #f0f0f0;
+	background: #fff;
 	background-size: cover;
     font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
 	font-weight: 100;
@@ -16,7 +16,6 @@ html {
 
 body {
 	height: 100%;
-	background: #000;
 }
 
 .clear {
@@ -341,62 +340,4 @@ body {
 
 .mask-close:hover {
 	color: #e6685b;
-}
-
-/* === splash === */
-
-.bg-splash {
-	background-image: url(../images/bg-splash.jpg);
-	background-repeat: no-repeat;
-	background-position: top right;
-	background-size: cover;
-}
-
-.belt {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 45%;
-	margin-top: -90px;
-	background: rgba(0, 0, 0, 0.35);
-	color: #fff;
-	font-size: 14px;
-	font-weight: 100;
-	padding: 20px;
-	text-align: center;
-}
-
-.logo-splash {
-	background-image: url(../images/logo_120.png);
-	background-repeat: no-repeat;
-	background-size: 60px 60px;
-	background-position: center center;
-	height: 60px;
-	margin-bottom: 10px;
-}
-
-.slogan {
-	margin-top: 10px;
-}
-
-.btns-splash {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 10px;
-}
-
-.btn-splash {
-	color: #fff;
-	text-decoration: none;
-	display: block;
-	background: #05b2d2;
-	border-radius: 8px;
-	margin-top: 10px;
-	padding: 10px;
-}
-
-.evernote {
-	background-color: #20c05c;
 }

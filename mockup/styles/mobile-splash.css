@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	overflow: hidden;
+}
+
+.bg-splash {
+	background-image: url(../images/bg-splash.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: cover;
+}
+
+.belt {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	margin-top: -90px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 100;
+	padding: 20px;
+	text-align: center;
+}
+
+.logo-splash {
+	background-image: url(../images/logo_120.png);
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+	background-position: center center;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+.slogan {
+	color: #999;
+	margin-top: 10px;
+}
+
+.btns-splash {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.btn-splash {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	background: #05b2d2;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.evernote {
+	background-color: #20c05c;
+}
+
+.splash-imac {
+	background: url(../images/imac.png) no-repeat center center;
+	background-size: 436px 98px;
+	width: 436px;
+	height: 98px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -218px;
+}
+
+.splash-keyboard {
+	background: url(../images/keyboard.jpg) no-repeat center center;
+	background-size: 288px 116px;
+	width: 288px;
+	height: 116px;
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	margin-left: -144px;
+}
+
+.splash-pencils {
+	background: url(../images/pencils.jpg) no-repeat center center;
+	background-size: 123px 61px;
+	width: 123px;
+	height: 61px;
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+.splash-ipad {
+	background: url(../images/ipad.png) no-repeat center center;
+	background-size: 69px 159px;
+	width: 69px;
+	height: 159px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+
+.splash-iphone {
+	background: url(../images/iphone.jpg) no-repeat center center;
+	background-size: 71px 110px;
+	width: 71px;
+	height: 110px;
+	position: absolute;
+	top: 130px;
+	right: 0;
+}
+
