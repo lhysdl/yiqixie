@@ -176,6 +176,10 @@ body {
 	line-height: 44px;
 }
 
+.btn-red {
+	color: #e6685b;
+}
+
 .btn:hover {
 	color: #e6685b;
 	text-decoration: none !important;
@@ -864,7 +868,6 @@ body {
 	width: 0;
 	height: 100%;
 	vertical-align: middle;
-	background: red;
 	content: '';
 }
 
