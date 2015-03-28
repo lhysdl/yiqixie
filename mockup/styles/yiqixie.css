@@ -87,22 +87,23 @@ body {
 
 .qr-wrapper {
 	text-align: center;
-	font-size: 14px;
+	font-size: 16px;
 	position: fixed;
-	width: auto;
-	padding: 20px;
-	background: #fff;
-	border-radius: 8px;
 	top: 50%;
 	left: 50%;
-	margin-left: -130px;
+	margin-left: -120px;
 	margin-top: -145px;
+	width: 240px;
+	background: url(../images/bg-qr.png) no-repeat center top;
+	color: #fff;
 }
 
 .qr {
-	width: 230px;
-	height: 230px;
+	width: 140px;
+	height: 140px;
 	background: #fff url(../images/qrcode.png) no-repeat center center;
+	background-size: 140px 140px;
+	margin: 30px 50px 50px 50px;
 }
 
 /* === Header === */
