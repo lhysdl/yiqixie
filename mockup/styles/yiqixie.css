@@ -92,10 +92,10 @@ body {
 	top: 50%;
 	left: 50%;
 	margin-left: -120px;
-	margin-top: -120px;
+	margin-top: -155px;
 	width: 240px;
-	background: url(../images/bg-qr.png) no-repeat center top;
-	color: #fff;
+	background: url(../images/bg-qr.png) no-repeat center 60px;
+	color: #05b2d2;
 }
 
 .qr {
@@ -103,7 +103,14 @@ body {
 	height: 140px;
 	background: #fff url(../images/qrcode.png) no-repeat center center;
 	background-size: 140px 140px;
-	margin: 30px 50px 50px 50px;
+	margin: 50px 50px 60px 50px;
+}
+
+.qr-wrapper .slogan {
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	height: 40px;
 }
 
 /* === Header === */
