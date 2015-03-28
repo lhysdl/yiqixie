@@ -23,6 +23,10 @@ body {
 	height: 100%;
 }
 
+.body-white {
+	background: #fff;
+}
+
 .clear {
 	clear: both;
 }
@@ -161,6 +165,14 @@ body {
 	font-size: 14px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.btn-big {
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 44px;
+	line-height: 44px;
 }
 
 .btn:hover {
@@ -1012,4 +1024,29 @@ img.logo {
 	margin-top: -30px;
 	margin-left: -30px;
 	background: url(../images/loading.gif) no-repeat center center;
+}
+
+/* === Oops === */
+
+.oops {
+	background: #fff url(../images/oops.png) no-repeat top center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	margin-left: -150px;
+	margin-top: -178px;
+	padding-top: 310px;
+	text-align: center;
+}
+
+.oops-mobile {
+	background-size: 150px 140px;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	margin-left: -75px;
+	margin-top: -95px;
+	padding-top: 160px;
+	text-align: center;
 }
