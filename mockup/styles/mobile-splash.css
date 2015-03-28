@@ -16,7 +16,7 @@ body {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 45%;
+	top: 43%;
 	margin-top: -90px;
 	color: #333;
 	font-size: 14px;
@@ -54,6 +54,10 @@ body {
 	text-decoration: none;
 	display: block;
 	background: #05b2d2;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	height: 44px;
+	line-height: 44px;
 	border-radius: 8px;
 	margin-top: 10px;
 	padding: 10px;
@@ -80,7 +84,7 @@ body {
 	width: 288px;
 	height: 116px;
 	position: absolute;
-	bottom: 100px;
+	bottom: 110px;
 	left: 50%;
 	margin-left: -144px;
 }
