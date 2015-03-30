@@ -33,6 +33,15 @@
 	top: 6px;
 }
 
+.menu i {
+	position: absolute;
+	background: url(../images/star.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+	right: 0;
+	bottom: 0;
+}
+
 #menu-start {
 	background: url(../images/headshot.jpg) no-repeat center center;
 	background-size: 40px 40px;
