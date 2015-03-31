@@ -113,6 +113,30 @@ body {
 	height: 40px;
 }
 
+#thankyou {
+	position: absolute;
+	background: #fff url(../images/traffic-cone.png) no-repeat center top;
+	padding-top: 160px;
+	top: 50%;
+	left: 50%;
+	margin-left: -230px;
+	margin-top: -110px;	
+	text-align: center;
+}
+
+#thankyou h1 {
+	color: #666;
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 1em;
+}
+
+#thankyou p {
+	width: 460px;
+	font-size: 14px;
+	color: #888;
+}
+
 /* === Header === */
 
 #body {
