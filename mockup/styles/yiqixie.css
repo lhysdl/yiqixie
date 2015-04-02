@@ -85,25 +85,65 @@ body {
 	height: 100%;
 }
 
+.animation {
+	color: #fff;
+	font-weight: 100;
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	overflow: visible;
+	position: relative;
+}
+
+.animation span {
+	display: inline-block;
+}
+
+#animation-cursor {
+	position: absolute;
+	display: inline-block;
+	top: -35px;
+	bottom: 0;
+	width: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#animation-cursor #animation-name {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-position: 4px 3px;
+	display: block;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 35px;
+	padding-right: 5px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
 .qr-wrapper {
 	text-align: center;
 	font-size: 16px;
 	position: fixed;
 	top: 50%;
-	left: 50%;
-	margin-left: -120px;
-	margin-top: -155px;
-	width: 240px;
-	background: url(../images/bg-qr.png) no-repeat center 60px;
+	width: 100%;
+	margin-top: -185px;
+	background: url(../images/bg-qr.png) no-repeat center 120px;
 	color: #05b2d2;
 }
 
 .qr {
-	width: 140px;
 	height: 140px;
-	background: #fff url(../images/qrcode.png) no-repeat center center;
+	background: url(../images/qrcode.png) no-repeat center center;
 	background-size: 140px 140px;
-	margin: 50px 50px 60px 50px;
+	margin-top: 50px;
+	margin-bottom: 60px;
 }
 
 .qr-wrapper .slogan {
@@ -122,6 +162,7 @@ body {
 	margin-left: -230px;
 	margin-top: -110px;	
 	text-align: center;
+	min-width: 460px;
 }
 
 #thankyou h1 {
@@ -141,7 +182,6 @@ body {
 
 #body {
 	position: fixed;
-	background: red;
 	top: 49px;
 	left: 0;
 	right: 0;
