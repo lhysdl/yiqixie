@@ -38,10 +38,11 @@
 .switch-logo {
 	position: absolute;
 	display: block;
-	width: 100px;
-	height: 100px;
-	top: 71px;
-	left: 71px;
+	border-radius: 71px;
+	width: 142px;
+	height: 142px;
+	top: 50px;
+	left: 50px;
 	margin-top: -50px;
 	margin-left: -50px;
 	background-size: contain;
