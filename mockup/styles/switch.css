@@ -4,6 +4,7 @@
 	display: inline-block;
 	width: 80%;
 	height: auto;
+	margin-bottom: 100px;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -14,6 +15,14 @@
 	height: auto;
 	margin: 20px;
 	cursor: pointer;
+}
+
+.switch-item-consumer {
+  	display: block;
+  	margin-left: -71px;
+  	position: relative;
+  	left: 50%;
+  	cursor: pointer;
 }
 
 .switch-selected .switch-border, .switch-item:hover .switch-border {
