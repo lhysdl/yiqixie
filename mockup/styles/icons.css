@@ -27,10 +27,14 @@
 	width: 20px;
 }
 
-#btn-wrapper {
+.btn-wrapper {
 	width: auto;
 	margin-left: 321px;
 	padding: 7px 20px;
+}
+
+.btn-wrapper * {
+	vertical-align: middle;
 }
 
 .btn-group {
@@ -51,6 +55,7 @@
 	background-image: url(../images/icons.png);
 	background-repeat: no-repeat;
 	background-clip: content-box;
+	background-position: 100px 100px;
 }
 
 .btn-group:last-child {
@@ -75,6 +80,33 @@
 }
 
 /* === Icons === */
+
+.listbox {
+	display: inline-block;
+	font-size: 16px;
+	width: 20px;
+	color: #1eaaf1;
+	padding-left: 6px;
+	padding-right: 20px;
+	width: 28px;
+	line-height: 34px;
+	overflow: hidden;
+	background: url(../images/icons.png) no-repeat 0px -96px;
+	text-align: center;
+}
+
+.font-color {
+	display: inline-block;
+	vertical-align: top;	
+	font-size: 16px;
+	height: 22px;
+	line-height: 22px;
+	padding: 2px 5px;
+	color: #ffff00;
+	background: #0000ff;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
 
 .icon-undo {
 	background-position: 0px 0px;

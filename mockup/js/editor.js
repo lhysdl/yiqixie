@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(e) {
-	$(".ebtn").click(function() {
+	$(".btn").click(function() {
 		$(this).toggleClass("on");
 	});
 	$(".comment-group").click(function() {
