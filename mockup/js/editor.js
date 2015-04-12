@@ -16,10 +16,4 @@ $(document).ready(function(e) {
 	$(".comment-group .comment-add").click(function() {
 		return false;
 	});
-	$("#col-toggle").click(function() {
-		$(this).toggleClass("icon-screen-full");
-		$(this).toggleClass("btn-screen-full");
-		$(this).toggleClass("icon-screen-split");
-		$(this).toggleClass("btn-screen-split");
-	});
 });

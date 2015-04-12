@@ -106,6 +106,7 @@
 	background: #0000ff;
 	margin-top: 3px;
 	margin-bottom: 3px;
+	border-radius: 2px;
 }
 
 .icon-undo {
@@ -205,15 +206,15 @@
 }
 
 .icon-back {
-	background-position: 0px -96px;
+	background-position: -68px -96px;
 }
 
 .icon-screen-full {
-	background-position: -34px -96px;
+	background-position: -102px -96px;
 }
 
 .icon-screen-split {
-	background-position: -68px -96px;
+	background-position: -136px -96px;
 }
 
 
