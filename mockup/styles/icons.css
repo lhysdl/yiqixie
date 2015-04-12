@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* === Normal Button === */
+
+.btn {
+	display: inline-block;
+	color: #05b2d2;
+	background: #fff;
+	min-width: 28px;
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.btn-text {
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn-big {
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 44px;
+	line-height: 44px;
+}
+
+.btn-red {
+	color: #e6685b;
+}
+
+.btn:hover {
+	color: #e6685b;
+	text-decoration: none !important;
+}
+
+.btns {
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: #e0e0e0 solid 1px;
+}
+
+.btn-space {
+	display: inline-block;
+	width: 20px;
+}
+
+/* === Editor Buttons === */
+
+#ebtn-wrapper {
+	width: auto;
+	margin-left: 321px;
+	padding: 7px 20px;
+}
+
+.ebtn-group {
+	height: 34px;
+	display: inline-block;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: #e0e0e0 solid 1px;
+}
+
+.ebtn {
+	display: inline-block;
+	width: 34px;
+	height: 32px;
+	line-height: 34px;
+	cursor: pointer;
+	border: #fff solid 1px;
+	background-image: url(../images/icons.png);
+	background-repeat: no-repeat;
+	background-clip: content-box;
+}
+
+.ebtn-group:last-child {
+	margin-right: none;
+	padding-right: none;
+	border: none;
+}
+
+.ebtn:hover {
+	border: #e0e0e0 solid 1px;
+	border-radius: 2px;
+}
+
+.ebtn[class~=disabled] {
+	color: #ccc;
+}
+
+.on {
+	background-color: #f0f0f0;
+	border: #e0e0e0 solid 1px;
+	border-radius: 2px;
+}
+
+/* === Icons === */
+
+.icon-undo {
+	background-position: 0px 0px;
+}
+
+.icon-redo {
+	background-position: -34px 0px;
+}
+
+.icon-bold {
+	background-position: -68px 0px;
+}
+
+.icon-italic {
+	background-position: -102px 0px;
+}
+
+.icon-underline {
+	background-position: -136px 0px;
+}
+
+.icon-strike {
+	background-position: -170px 0px;
+}
+
+.icon-superscript {
+	background-position: -204px 0px;
+}
+
+.icon-subscript {
+	background-position: -238px 0px;
+}
+
+.icon-subscript {
+	background-position: -238px 0px;
+}
+
+.icon-clear {
+	background-position: -272px 0px;
+}
+
+.icon-brush {
+	background-position: -306px 0px;
+}
+
+.icon-align-left {
+	background-position: 0 -32px;
+}
+
+.icon-align-center {
+	background-position: -34px -32px;
+}
+
+.icon-align-right {
+	background-position: -68px -32px;
+}
+
+.icon-align-justify {
+	background-position: -102px -32px;
+}
+
+.icon-indent-right {
+	background-position: -136px -32px;
+}
+
+.icon-indent-left {
+	background-position: -170px -32px;
+}
+
+.icon-list-number {
+	background-position: -204px -32px;
+}
+
+.icon-list-bullet {
+	background-position: -238px -32px;
+}
+
+.icon-list-check {
+	background-position: -272px -32px;
+}
+
+.icon-image {
+	background-position: -306px -32px;
+}
+
+.icon-table {
+	background-position: 0 -64px;
+}
+
+.icon-comment-add {
+	background-position: -34px -64px;
+}
+
+.icon-microphone {
+	background-position: -68px -64px;
+}
+
