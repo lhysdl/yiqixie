@@ -1,19 +1,6 @@
 @charset "utf-8";
 /* === Normal Button === */
 
-.btn {
-	display: inline-block;
-	color: #05b2d2;
-	background: #fff;
-	min-width: 28px;
-	width: auto;
-	height: 28px;
-	line-height: 28px;
-	text-align: center;
-	cursor: pointer;
-	text-decoration: none;
-}
-
 .btn-text {
 	font-size: 14px;
 	padding-left: 20px;
@@ -28,15 +15,6 @@
 	line-height: 44px;
 }
 
-.btn-red {
-	color: #e6685b;
-}
-
-.btn:hover {
-	color: #e6685b;
-	text-decoration: none !important;
-}
-
 .btns {
 	text-align: center;
 	padding-top: 15px;
@@ -49,15 +27,13 @@
 	width: 20px;
 }
 
-/* === Editor Buttons === */
-
-#ebtn-wrapper {
+#btn-wrapper {
 	width: auto;
 	margin-left: 321px;
 	padding: 7px 20px;
 }
 
-.ebtn-group {
+.btn-group {
 	height: 34px;
 	display: inline-block;
 	margin-right: 10px;
@@ -65,7 +41,7 @@
 	border-right: #e0e0e0 solid 1px;
 }
 
-.ebtn {
+.btn {
 	display: inline-block;
 	width: 34px;
 	height: 32px;
@@ -77,22 +53,22 @@
 	background-clip: content-box;
 }
 
-.ebtn-group:last-child {
+.btn-group:last-child {
 	margin-right: none;
 	padding-right: none;
 	border: none;
 }
 
-.ebtn:hover {
+.btn:hover {
 	border: #e0e0e0 solid 1px;
 	border-radius: 2px;
 }
 
-.ebtn[class~=disabled] {
-	color: #ccc;
+.btn[class~=disabled] {
+	opacity: 0.5;
 }
 
-.on {
+.btn[class~=on] {
 	background-color: #f0f0f0;
 	border: #e0e0e0 solid 1px;
 	border-radius: 2px;
@@ -195,4 +171,17 @@
 .icon-microphone {
 	background-position: -68px -64px;
 }
+
+.icon-back {
+	background-position: 0px -96px;
+}
+
+.icon-screen-full {
+	background-position: -34px -96px;
+}
+
+.icon-screen-split {
+	background-position: -68px -96px;
+}
+
 

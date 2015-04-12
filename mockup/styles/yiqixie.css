@@ -373,26 +373,26 @@ body {
 
 .btn-screen-full {
 	position: absolute;
-	top: 9px;
-	left: 270px;
+	top: 7px;
+	left: 273px;
 }
 
 .btn-screen-split {
 	position: absolute;
-	top: 9px;
-	left: 20px;
+	top: 7px;
+	left: 10px;
 }
 
 .btn-back {
 	position: absolute;
-	top: 9px;
-	left: 20px;
+	top: 7px;
+	left: 10px;
 }
 
 .btn-upgrade {
 	position: absolute;
-	top: 9px;
-	right: 20px;
+	top: 7px;
+	right: 10px;
 }
 
 /* === Mark === */
