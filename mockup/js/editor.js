@@ -3,6 +3,9 @@ $(document).ready(function(e) {
 	$(".btn").mousedown(function() {
 		$(this).addClass("on");
 	});
+	$(".btn").mouseleave(function() {
+		$(this).removeClass("on");
+	});
 	$(".btn").mouseup(function() {
 		$(this).removeClass("on");
 	});
