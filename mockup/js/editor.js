@@ -1,7 +1,10 @@
 // JavaScript Document
 $(document).ready(function(e) {
-	$(".btn").click(function() {
-		$(this).toggleClass("on");
+	$(".btn").mousedown(function() {
+		$(this).addClass("on");
+	});
+	$(".btn").mouseup(function() {
+		$(this).removeClass("on");
 	});
 	$(".comment-group").click(function() {
 		$(".comment-group").removeClass("comment-group-actived");

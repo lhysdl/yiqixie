@@ -205,6 +205,30 @@
 	background-position: -68px -64px;
 }
 
+.icon-add-col-left {
+	background-position: -102px -64px;
+}
+
+.icon-add-col-right {
+	background-position: -136px -64px;
+}
+
+.icon-add-row-above {
+	background-position: -170px -64px;
+}
+
+.icon-add-row-below {
+	background-position: -204px -64px;
+}
+
+.icon-remove-col {
+	background-position: -238px -64px;
+}
+
+.icon-remove-row {
+	background-position: -272px -64px;
+}
+
 .icon-back {
 	background-position: -68px -96px;
 }
@@ -216,5 +240,6 @@
 .icon-screen-split {
 	background-position: -136px -96px;
 }
+
 
 
