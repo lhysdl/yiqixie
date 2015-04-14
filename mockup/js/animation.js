@@ -1,7 +1,4 @@
 // JavaScript Document
-function sleep (d) {
-  for (var t = Date.now(); Date.now() - t <= d;);
-}
 $(document).ready(function () {
 	var poem = new Array("当然是降龙十八掌！", "蛤蟆功表示不服！", "听听我的碧海潮生曲？");
 	var author = new Array("郭靖", "欧阳锋", "黄药师");
@@ -12,6 +9,12 @@ $(document).ready(function () {
 	var mode = 1;
 	var n = poem.length;
 	text = document.getElementById("animation-text");
+	var type;
+
+	function reload() {
+		type = setInterval(update, 100);
+	}
+
 	function updatename(i) {
 		var name = document.getElementById("animation-name");
 		name.innerHTML = author[i];
@@ -22,17 +25,21 @@ $(document).ready(function () {
 	}
 	function update() {
 		text.innerHTML = poem[i].substring(0, j);
-		if (j > poem[i].length) {
-			sleep(3000);
-			mode = -1;
-			updatename((i + 1) % n);
-		}
 		j += mode;
+		if (j > poem[i].length) {
+			clearInterval(type);
+			setTimeout(function() {
+				updatename((i + 1) % n);
+				mode = -1;
+				reload();
+			}, 3000);
+		}
 		if (j < 0) {
 			mode = 1;
 			j = 0;
 			i = (i + 1) % n;
 		}
 	}
-	setTimeout(function () { updatename(0); setInterval(update, 100);}, 3000);
+
+	setTimeout(function () { updatename(0); reload();}, 3000);
 });
