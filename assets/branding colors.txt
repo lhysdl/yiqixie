@@ -1,0 +1,10 @@
+Blue: #1EAAF0 (R:30, G:170, B:240)
+
+Red: #F23749 (R:242, G:55, B:73)
+
+White: #FFFFFF (R:255, G:255, B:255)
+
+Grey Background: #F0F0F0 (R:240, G:240, B:240)
+
+Border Color: #E0E0E0 (R:224, G:224, B:224)
+
