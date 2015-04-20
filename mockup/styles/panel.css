@@ -19,7 +19,7 @@
 }
 
 .panel-title {
-	color: #05b2d2;
+	color: #1eaaf0;
 	font-size: 24px;
 	line-height: 24px;
 	margin-bottom: 15px;
@@ -60,12 +60,12 @@
 }
 
 .panel a {
-	color: #05b2d2;
+	color: #1eaaf0;
 	text-decoration: none;
 }
 
 .panel a:hover {
-	color: #e6685b;
+	color: #f23749;
 	text-decoration: underline;
 }
 
@@ -77,7 +77,7 @@
 .panel label {
 	font-size: 16px;
 	display: inline-block;
-	color: #05b2d2;
+	color: #1eaaf0;
 	width: 120px;
 	text-align: right;
 	margin-right: 10px;

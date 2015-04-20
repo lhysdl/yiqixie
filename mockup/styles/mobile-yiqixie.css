@@ -38,7 +38,7 @@ body {
 	height: 100%;
 	position: relative;
 	display: none;
-	background: #05b2d2;
+	background: #1eaaf0;
 }
 
 #col-right {
@@ -72,12 +72,12 @@ body {
 	display: inline-block;	
 	height: 20px;
 	line-height: 16px;
-	color: #05b2d2;
+	color: #1eaaf0;
 	cursor: pointer;
 }
 
 .clicked {
-	color: #e6685b;
+	color: #f23749;
 }
 
 #btn-add {
@@ -239,7 +239,7 @@ body {
 .ebtn {
 	display: inline-block;
 	border-right: #e0e0e0 solid 1px;
-	color: #05b2d2;
+	color: #1eaaf0;
 	font-size: 24px;
 	width: 43px;
 	height: 43px;
@@ -248,7 +248,7 @@ body {
 }
 
 .ebtn-on {
-	color: #e6685b;
+	color: #f23749;
 	background: #f0f0f0;
 }
 
@@ -339,5 +339,5 @@ body {
 }
 
 .mask-close:hover {
-	color: #e6685b;
+	color: #f23749;
 }

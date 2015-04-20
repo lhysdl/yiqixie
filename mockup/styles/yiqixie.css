@@ -135,7 +135,7 @@ body {
 	width: 100%;
 	margin-top: -185px;
 	background: url(../images/bg-qr.png) no-repeat center 120px;
-	color: #05b2d2;
+	color: #1eaaf0;
 }
 
 .qr {
@@ -237,12 +237,12 @@ body {
 }
 
 .log strong {
-	color: #05b2d2;
+	color: #1eaaf0;
 	cursor: pointer;
 }
 
 .log strong:hover {
-	color: #e6685b;
+	color: #f23749;
 }
 
 .log .detail {
@@ -269,7 +269,7 @@ body {
 }
 
 .comment-group-actived {
-	border-color: #e6685b;
+	border-color: #f23749;
 }
 
 .comment {
@@ -279,14 +279,14 @@ body {
 }
 
 .comment .user, .comment .quote {
-	color: #05b2d2;
+	color: #1eaaf0;
 	cursor: pointer;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .comment .user:hover, .comment .quote:hover {
-	color: #e6685b;
+	color: #f23749;
 }
 
 .comment-group .time {
@@ -427,7 +427,7 @@ body {
 }
 
 .mark-comment-actived {
-	border: #e6685b solid 1px;
+	border: #f23749 solid 1px;
 }
 
 /* === File === */
@@ -504,7 +504,7 @@ body {
 }
 
 .file-preview a {
-	color: #05b2d2;
+	color: #1eaaf0;
 }
 
 .file-preview li {
@@ -597,7 +597,7 @@ body {
 }
 
 .file-wechat:hover {
-	color: #e6685b;
+	color: #f23749;
 }
 
 .file-barcode:hover {
@@ -623,14 +623,14 @@ body {
 }
 
 .file-menu-on {
-	background-color: #05b2d2;
+	background-color: #1eaaf0;
 	width: auto;
 	height: auto;
 	padding-bottom: 23px;
 }	
 
 .file-menu-on:hover {
-	background-color: #05b2d2;
+	background-color: #1eaaf0;
 }
 
 .file-options {
@@ -654,7 +654,7 @@ body {
 }
 
 .file-options li:hover {
-	background: #e6685b;
+	background: #f23749;
 	border-radius: 2px;
 }
 
@@ -836,7 +836,7 @@ body {
 }
 
 .dialog-title {
-	color: #05b2d2;
+	color: #1eaaf0;
 	font-size: 24px;
 	line-height: 24px;
 	margin-bottom: 15px;
@@ -881,13 +881,13 @@ body {
 	width: 24px;
 	height: 24px;
 	font-size: 24px;
-	color: #05b2d2;
+	color: #1eaaf0;
 	cursor: pointer;
 	z-index: 1000;
 }
 
 .dialog .dialog-close:hover {
-	color: #e6685b;
+	color: #f23749;
 }
 
 .dialog p {
@@ -897,7 +897,7 @@ body {
 .dialog label {
 	font-size: 16px;
 	display: inline-block;
-	color: #05b2d2;
+	color: #1eaaf0;
 	width: 50px;
 	text-align: right;
 	margin-right: 10px;
@@ -959,7 +959,7 @@ img.logo {
 }
 
 .mask-close:hover {
-	color: #e6685b;
+	color: #f23749;
 }
 
 .mask:after {
