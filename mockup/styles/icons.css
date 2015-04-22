@@ -30,7 +30,8 @@
 .btn-wrapper {
 	width: auto;
 	margin-left: 321px;
-	padding: 7px 20px;
+	padding: 7px 40px 7px 20px;
+	background: #fff;
 }
 
 .btn-wrapper * {
@@ -43,6 +44,7 @@
 	margin-right: 10px;
 	padding-right: 10px;
 	border-right: #e0e0e0 solid 1px;
+	margin-bottom: 7px;
 }
 
 .btn {
@@ -52,6 +54,7 @@
 	line-height: 34px;
 	cursor: pointer;
 	border: #fff solid 1px;
+	background-color: #fff;
 	background-image: url(../images/icons.png);
 	background-repeat: no-repeat;
 	background-clip: content-box;
@@ -240,6 +243,39 @@
 .icon-screen-split {
 	background-position: -136px -96px;
 }
+
+.icon-textbox-single {
+	background-position: -136px -96px;
+}
+
+.icon-textbox-single {
+	background-position: -0px -128px;
+}
+
+.icon-textbox-multi {
+	background-position: -34px -128px;
+}
+
+.icon-droplist {
+	background-position: -68px -128px;
+}
+
+.icon-checkbox {
+	background-position: -102px -128px;
+}
+
+.icon-radiobutton {
+	background-position: -136px -128px;
+}
+
+.icon-title {
+	background-position: -170px -128px;
+}
+
+.icon-description {
+	background-position: -204px -128px;
+}
+
 
 
 
