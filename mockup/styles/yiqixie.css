@@ -433,18 +433,18 @@ body {
 /* === File === */
 
 .file {
-	border-radius: 8px;
-	width: 210px;
-	height: auto;
-	margin: 0 20px 40px 0;
+	width: 150px;
+	height: 230px;
+	margin: 0 20px 60px 0;
 	float: left;
 	position: relative;
 	cursor: pointer;
+	background-repeat: no-repeat;
 }
 
 .file-add {
-	width: 210px;
-	height: 320px;
+	width: 150px;
+	height: 230px;
 	background: url(../images/add.png) no-repeat center center;
 	cursor: pointer;
 	border: #e0e0e0 solid 1px;
@@ -468,12 +468,11 @@ body {
 
 .file-preview {
 	color: #333;
-	background: #ffffff;
-	border: #e0e0e0 solid 1px;
-	border-radius: 8px;
+	height: 130px;
+	height: 210px;
 	padding: 10px;
-	width: auto;
-	height: 298px;
+	background: url(../images/folders.png) no-repeat -600px -230px;
+	background-position: -600px -230px;
 	overflow: hidden;
 	position: relative;
 }
@@ -500,7 +499,6 @@ body {
 	font-size: 12px;
 	font-weight: 100;
 	margin-bottom: 1em;
-	text-indent: 2em;
 }
 
 .file-preview a {
@@ -516,28 +514,10 @@ body {
 
 .file-preview .share-info {
 	color: rgba(0, 0, 0, 0.3);
-	position: absolute;
-	width: 200px;
-	top: 210px;
-	left: 50%;
-	margin-left: -100px;
-	font-size: 18px;
-	font-weight: 100;
-	text-align: center;
 }
 
 .file-preview .icon-share {
 	color: rgba(0, 0, 0, 0.3);
-	display: inline-block;
-	font-weight: 100;
-	font-size: 72px;
-	width: 80px;
-	height: 60px;
-	line-height: 60px;
-	position: absolute;
-	left: 50%;
-	top: 130px;
-	margin-left: -40px;
 }
 
 .file-info {
@@ -567,7 +547,7 @@ body {
 	display: inline-block;
 	color: #666;
 	font-size: 14px;
-	width: 160px;
+	width: 130px;
 	padding: 0 10px;
 	height: 24px;
 	line-height: 24px;
@@ -589,11 +569,11 @@ body {
 .file-wechat {
 	margin-left: 5px;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
+	width: 14px;
+	height: 14px;
 	background-size: 24px 24px;
 	color: #00d20d;
-	font-size: 20px;
+	font-size: 14px;
 }
 
 .file-wechat:hover {
@@ -605,12 +585,11 @@ body {
 }
 
 .file-time {
-	color: #999;
+	color: #333;
 	margin-top: 8px;
 	font-size: 12px;
 	font-weight: 100;
 	width: auto;
-	padding: 0 4px;
 }
 
 /* === File Menu === */
@@ -663,7 +642,7 @@ body {
 	height: 26px;
 	position: absolute;
 	top: -20px;
-	left: 100px;
+	left: 60px;
 	cursor: pointer;
 	background: url(../images/pin.png) no-repeat;
 }
@@ -687,24 +666,24 @@ body {
 /* === Folder === */
 
 .folder {
-	height: 320px;
+	height: 230px;
+	background-image: url(../images/folders.png);
 	background-repeat: no-repeat;
-	background-position: center center;
 	cursor: pointer;
 }
 
-.folder .share-info {
+.share-info {
 	position: absolute;
-	width: 200px;
-	top: 210px;
+	width: 150px;
+	top: 180px;
 	left: 50%;
-	margin-left: -100px;
-	font-size: 18px;
+	margin-left: -75px;
+	font-size: 16px;
 	font-weight: 100;
 	text-align: center;
 }
 
-.folder .icon-share {
+.icon-share {
 	display: inline-block;
 	font-weight: 100;
 	font-size: 72px;
@@ -713,16 +692,16 @@ body {
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
-	top: 130px;
+	top: 80px;
 	margin-left: -40px;
 }
 
 .folder-yellow {
-	background: url(../images/folder-yellow.png);
+	background-position: 0 -230px;
 }
 
 .folder-yellow-empty {
-	background: url(../images/folder-yellow-empty.png);
+	background-position: -150px -230px;
 }
 
 .folder-yellow *, .folder-yellow-empty * {
@@ -730,11 +709,11 @@ body {
 }
 
 .folder-red {
-	background: url(../images/folder-red.png);
+	background-position: -300px -230px;
 }
 
 .folder-red-empty {
-	background: url(../images/folder-red-empty.png);
+	background-position: -450px -230px;
 }
 
 .folder-red *, .folder-red-empty * {
@@ -742,11 +721,11 @@ body {
 }
 
 .folder-blue {
-	background: url(../images/folder-blue.png);
+	background-position: -300px 0px;
 }
 
 .folder-blue-empty {
-	background: url(../images/folder-blue-empty.png);
+	background-position: -450px 0px;	
 }
 
 .folder-blue *, .folder-blue-empty * {
@@ -754,11 +733,11 @@ body {
 }
 
 .folder-green {
-	background: url(../images/folder-green.png);
+	background-position: -900px 0px;	
 }
 
 .folder-green-empty {
-	background: url(../images/folder-green-empty.png);
+	background-position: -1050px 0px;
 }
 
 .folder-green *, .folder-green-empty * {
@@ -766,11 +745,11 @@ body {
 }
 
 .folder-purple {
-	background: url(../images/folder-purple.png);
+	background-position: 0 0px;
 }
 
 .folder-purple-empty {
-	background: url(../images/folder-purple-empty.png);
+	background-position: -150px 0px;
 }
 
 .folder-purple *, .folder-purple-empty * {
@@ -778,15 +757,38 @@ body {
 }
 
 .folder-cyan {
-	background: url(../images/folder-cyan.png);
+	background-position: -600px 0px;
 }
 
 .folder-cyan-empty {
-	background: url(../images/folder-cyan-empty.png);
+	background-position: -750px 0px;
 }
 
 .folder-cyan *, .folder-cyan-empty * {
 	color: #20a785;
+}
+
+/* === Form === */
+
+.form {
+	height: 230px;
+	background-image: url(../images/folders.png);
+	background-position: -750px -230px;
+}
+
+.form-title {
+	padding: 60px 10px 10px 10px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+}
+
+.form .share-info {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.form .icon-share {
+	color: rgba(0, 0, 0, 0.3);
 }
 
 /* === Text Align === */
