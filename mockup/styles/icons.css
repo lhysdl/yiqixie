@@ -73,11 +73,6 @@
 	border-radius: 2px;
 }
 
-.btn-black:hover {
-	border: #444 solid 1px !important;
-	border-radius: 2px;
-}
-
 .btn[class~=disabled] {
 	opacity: 0.5;
 }
@@ -283,6 +278,11 @@
 .btn-black {
 	background-color: #333;
 	border-color: #333;
+}
+
+.btn-black:hover {
+	border: #444 solid 1px !important;
+	border-radius: 2px;
 }
 
 .icon-bold-black {
