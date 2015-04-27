@@ -61,6 +61,7 @@
 	background-position: 100px 100px;
 }
 
+
 .btn-group:last-child {
 	margin-right: none;
 	padding-right: none;
@@ -69,6 +70,11 @@
 
 .btn:hover {
 	border: #e0e0e0 solid 1px;
+	border-radius: 2px;
+}
+
+.btn-black:hover {
+	border: #444 solid 1px !important;
 	border-radius: 2px;
 }
 
@@ -138,10 +144,6 @@
 
 .icon-superscript {
 	background-position: -204px 0px;
-}
-
-.icon-subscript {
-	background-position: -238px 0px;
 }
 
 .icon-subscript {
@@ -276,6 +278,45 @@
 	background-position: -204px -128px;
 }
 
+/* === Black Buttons === */
 
+.btn-black {
+	background-color: #333;
+	border-color: #333;
+}
 
+.icon-bold-black {
+	background-position: -68px -256px;
+}
 
+.icon-italic-black {
+	background-position: -102px -256px;
+}
+
+.icon-underline-black {
+	background-position: -136px -256px;
+}
+
+.icon-strike-black {
+	background-position: -170px -256px;
+}
+
+.icon-superscript-black {
+	background-position: -204px -256px;
+}
+
+.icon-subscript-black {
+	background-position: -238px -256px;
+}
+
+.icon-clear-black {
+	background-position: -272px -256px;
+}
+
+.icon-brush-black {
+	background-position: -306px -256px;
+}
+
+.icon-comment-add-black {
+	background-position: -34px -64px;
+}
