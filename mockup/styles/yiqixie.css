@@ -683,19 +683,6 @@ body {
 	text-align: center;
 }
 
-.icon-share {
-	display: inline-block;
-	font-weight: 100;
-	font-size: 72px;
-	width: 80px;
-	height: 60px;
-	line-height: 60px;
-	position: absolute;
-	left: 50%;
-	top: 80px;
-	margin-left: -40px;
-}
-
 .folder-yellow {
 	background-position: 0 -230px;
 }

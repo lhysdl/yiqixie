@@ -229,7 +229,7 @@
 	background-position: -272px -64px;
 }
 
-.icon-link {
+.icon-share {
 	background-position: -306px -64px;
 }
 
@@ -245,12 +245,24 @@
 	background-position: -136px -96px;
 }
 
-.icon-textbox-single {
-	background-position: -136px -96px;
+.icon-link {
+	background-position: -170px -96px;
+}
+
+.icon-link-access {
+	background-position: -204px -96px;
+}
+
+.icon-link-edit {
+	background-position: -238px -96px;
+}
+
+.icon-link-remove {
+	background-position: -272px -96px;
 }
 
 .icon-textbox-single {
-	background-position: -0px -128px;
+	background-position: 0 -128px;
 }
 
 .icon-textbox-multi {
@@ -323,4 +335,16 @@
 
 .icon-comment-add-black {
 	background-position: -34px -320px;
+}
+
+.icon-link-access-black {
+	background-position: -204px -352px;
+}
+
+.icon-link-edit-black {
+	background-position: -238px -352px;
+}
+
+.icon-link-remove-black {
+	background-position: -272px -352px;
 }
