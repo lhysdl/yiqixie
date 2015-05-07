@@ -755,7 +755,7 @@ body {
 	color: #20a785;
 }
 
-/* === Form === */
+/* === Form & Binary === */
 
 .form {
 	height: 230px;
@@ -763,18 +763,17 @@ body {
 	background-position: -750px -230px;
 }
 
-.form-title {
-	padding: 60px 10px 10px 10px;
-	text-align: center;
-	color: #333;
-	font-size: 14px;
+.binary {
+	height: 230px;
+	background-image: url(../images/folders.png);
+	background-position: -900px -230px;
 }
 
-.form .share-info {
+.form .share-info, .binary .share-info {
 	color: rgba(0, 0, 0, 0.3);
 }
 
-.form .icon-share {
+.form .icon-share, .binary .icon-share {
 	color: rgba(0, 0, 0, 0.3);
 }
 
