@@ -435,7 +435,7 @@ body {
 .file {
 	width: 150px;
 	height: 230px;
-	margin: 0 20px 60px 0;
+	margin: 0 20px 90px 0;
 	float: left;
 	position: relative;
 	cursor: pointer;
@@ -544,13 +544,12 @@ body {
 }
 
 .file-name {
-	display: inline-block;
-	color: #666;
+	text-align: center;
+	color: #333;
 	font-size: 14px;
-	width: 130px;
-	padding: 0 10px;
 	height: 24px;
 	line-height: 24px;
+	margin-top: 5px;
 }
 
 .file-name:focus {
@@ -585,8 +584,8 @@ body {
 }
 
 .file-time {
-	color: #333;
-	margin-top: 8px;
+	color: #999;
+	margin-top: 5px;
 	font-size: 12px;
 	font-weight: 100;
 	width: auto;
@@ -755,7 +754,7 @@ body {
 	color: #20a785;
 }
 
-/* === Form & Binary === */
+/* === File Icons === */
 
 .form {
 	height: 230px;
@@ -769,11 +768,17 @@ body {
 	background-position: -900px -230px;
 }
 
-.form .share-info, .binary .share-info {
+.spreadsheet {
+	height: 230px;
+	background-image: url(../images/folders.png);
+	background-position: -1050px -230px;
+}
+
+.form .share-info, .binary .share-info, .spreadsheet .share-info {
 	color: rgba(0, 0, 0, 0.3);
 }
 
-.form .icon-share, .binary .icon-share {
+.form .icon-share, .binary .icon-share, .spreadsheet .icon-share {
 	color: rgba(0, 0, 0, 0.3);
 }
 
