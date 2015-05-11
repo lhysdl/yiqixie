@@ -297,6 +297,14 @@
 	background-position: -272px -128px;
 }
 
+.icon-binary {
+	background-position: 0 -160px;
+}
+
+.icon-spreadsheet {
+	background-position: -34px -160px;
+}
+
 /* === Black Buttons === */
 
 .btn-black {
