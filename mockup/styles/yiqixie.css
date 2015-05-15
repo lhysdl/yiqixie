@@ -31,17 +31,35 @@ body {
 	clear: both;
 }
 
-.input {
+.input, .input-file, .select, .textarea {
 	color: #333;
     font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
 	font-size: 16px;
-	height: 28px;
 	line-height: 30px;
-	width: 205px;
 	padding: 0 10px;
 	border: #e0e0e0 1px solid;
 	border-radius: 4px;
 	vertical-align: middle;
+}
+
+.input {
+	width: 205px;
+	height: 28px;
+}
+
+.input-file {
+	border: none;
+	height: 28px;
+	line-height: 28px;
+}
+
+.select {
+	height: 28px;
+}
+
+.textarea {
+	width: 400px;
+	resize: none;
 }
 
 .input-file {

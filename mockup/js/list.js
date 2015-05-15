@@ -26,10 +26,15 @@ $(document).ready(function(e) {
 	$(".file-pin").click(function() {
 		$(this).animate({top: "-50px", opacity: 0}, 200, "easeOutCubic", function() {$(this).hide()});
 	});
-	$(".file").mouseover(function() {
-		$(this).children(".file-menu").show();
+	$(".form-component").mouseover(function() {
+		$(this).children(".form-remove").show();
 	});
-	$(".file").mouseleave(function() {
-		$(this).children(".file-menu").hide();
+	$(".form-component").mouseout(function() {
+		$(this).children(".form-remove").hide();
+	});
+	$(".form-remove").click(function() {
+		if (confirm("确定要删除吗？")) {
+			$(this).parent("div").hide();
+		}
 	});
 });
