@@ -34,6 +34,12 @@
 	background: #fff;
 }
 
+.form-btn-wrapper {
+	text-align: center;
+	padding: 7px 40px 7px 20px;
+	background: #fff;
+}
+
 .btn-wrapper * {
 	vertical-align: middle;
 }
@@ -259,6 +265,10 @@
 
 .icon-link-remove {
 	background-position: -272px -96px;
+}
+
+.icon-linespacing {
+	background-position: -306px -96px;
 }
 
 .icon-textbox-single {
