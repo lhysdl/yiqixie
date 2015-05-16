@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.form-label {
+	display: block;
+	width: auto;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.form-contents {
+	display: block;
+	width: auto;
+}
+
+.form-component {
+	margin-bottom: 5px;
+}
+
+.form-component:hover {
+	background-color: transparent;
+}
+
+.input, .input-file, .select, .textarea {
+	color: #333;
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', sans-serif;	
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 10px;
+	border: #e0e0e0 1px solid;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+
+.input {
+	width: 85%;
+	height: 28px;
+}
+
+.form-title {
+	font-size: 16px;
+}
+
+.input-file {
+	border: none;
+	height: 28px;
+	line-height: 28px;
+}
+
+.select {
+	height: 28px;
+}
+
+.textarea {
+	width: 85%;
+	resize: none;
+}
+
+.form-droplist, .form-listitem, .form-description {
+	font-size: 14px;
+}
+
+.form-listitem {
+	margin-bottom: 5px;
+}
+
+.form-description {
+	padding: 5px 0;
+}
+

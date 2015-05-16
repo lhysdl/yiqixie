@@ -257,7 +257,7 @@ body {
 .page {
 	color: #262626;
 	position: absolute;
-	top: 88px;
+	top: 44px;
 	padding: 15px;
 	left: 0;
 	right: 0;
@@ -340,4 +340,8 @@ body {
 
 .mask-close:hover {
 	color: #f23749;
+}
+
+.form-description {
+	padding: 0;
 }
