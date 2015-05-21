@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #525252;
+}
+
+.animation {
+	color: #fff;
+	font-weight: 100;
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 140px;
+	margin-bottom: 20px;
+	overflow: visible;
+	position: relative;
+}
+
+.animation span {
+	display: inline-block;
+}
+
+#animation-cursor {
+	position: absolute;
+	display: inline-block;
+	top: -35px;
+	bottom: 0;
+	width: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#animation-cursor #animation-name {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-position: 4px 3px;
+	display: block;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 35px;
+	padding-right: 5px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+.qr-wrapper {
+	text-align: center;
+	background: url(../images/bg-qr.png) no-repeat center 120px;
+	color: #1eaaf0;
+}
+
+.qr {
+	height: 160px;
+	background: url(../images/qrcode.png) no-repeat center center;
+	background-size: 160px 160px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.qr-wrapper .slogan {
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	height: 40px;
+}
+
+#welcome .logo {
+	height: 120px;
+	background: url(../images/logo_120.png) no-repeat center center;
+}
+
+.feature {
+	background: #fff;
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+.resume {
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.greytext {
+	color: #b0b0b0;
+}
