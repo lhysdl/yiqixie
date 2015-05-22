@@ -791,12 +791,24 @@ body {
 	background-position: -1050px -230px;
 }
 
-.form .share-info, .binary .share-info, .spreadsheet .share-info {
-	color: rgba(0, 0, 0, 0.3);
+.pdf {
+	height: 230px;
+	background-image: url(../images/folders.png);
+	background-position: 0 -460px;
 }
 
-.form .icon-share, .binary .icon-share, .spreadsheet .icon-share {
-	color: rgba(0, 0, 0, 0.3);
+.image {
+	height: 230px;
+	background-image: url(../images/folders.png);
+	background-position: -150px -460px;
+}
+
+.file .share-info {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.file .icon-share {
+	color: rgba(0, 0, 0, 0.5);
 }
 
 /* === Text Align === */
