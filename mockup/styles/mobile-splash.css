@@ -119,3 +119,22 @@ body {
 	right: 0;
 }
 
+.info {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;
+	font-size: 14px;
+	text-align: left;
+}
+
+.url {
+	color: #1eaaf0;
+	text-decoration: underline;
+}
+
+.stress {
+	color: #f23749;
+	font-weight: bold;
+}
